@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Alejandra & Juan's Wedding</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Alejandra & Juan</div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="events.html" class="nav-link">Events</a></li>
+                <li><a href="accommodations.html" class="nav-link">Accommodations</a></li>
+                <li><a href="rsvp.html" class="nav-link">RSVP</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Us Section -->
+    <section id="about" class="about" style="padding-top: 120px;">
+        <div class="container">
+            <h2>Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>How We Met</h3>
+                    <p>
+                        [Share your love story here. Tell your guests how you met, the special moments 
+                        that led to this day, and what makes your relationship unique.]
+                    </p>
+                    <p>
+                        Include details about the proposal, memorable dates, and why you're excited 
+                        to celebrate with your loved ones.
+                    </p>
+                    <h3>Our Journey Together</h3>
+                    <p>
+                        [Add more details about your relationship milestones, adventures you've shared,
+                        and the moments that made you realize you wanted to spend forever together.]
+                    </p>
+                </div>
+                <div class="couple-photos">
+                    <div class="photo-frame">
+                        <div class="placeholder-img">Alejandra's Photo</div>
+                    </div>
+                    <div class="photo-frame">
+                        <div class="placeholder-img">Juan's Photo</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline of Important Dates -->
+            <div class="important-dates" style="margin-top: 4rem;">
+                <h3 style="text-align: center; color: var(--primary-color); margin-bottom: 2rem;">Our Important Dates</h3>
+                <div class="dates-grid">
+                    <div class="date-card">
+                        <h4>When We Met</h4>
+                        <p class="date-value">[Month Year]</p>
+                        <p>[Location or context]</p>
+                    </div>
+                    <div class="date-card">
+                        <h4>First Date</h4>
+                        <p class="date-value">[Month Day, Year]</p>
+                        <p>[Where or what you did]</p>
+                    </div>
+                    <div class="date-card">
+                        <h4>The Proposal</h4>
+                        <p class="date-value">[Month Day, Year]</p>
+                        <p>[How and where Juan proposed]</p>
+                    </div>
+                    <div class="date-card">
+                        <h4>Our Wedding Day</h4>
+                        <p class="date-value">December 19, 2026</p>
+                        <p>Tepoztlán, Morelos, México</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> alejandra.juan.2026@email.com</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Location</h3>
+                    <p>Tepoztlán, Morelos, México</p>
+                    <p>December 19, 2026</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alejandra & Juan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Additional styles for dates grid -->
+    <style>
+        .dates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .date-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .date-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .date-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .date-card .date-value {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin: 0.5rem 0;
+        }
+
+        .date-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+    </style>
+
+    <script src="../script.js"></script>
+</body>
+</html>
