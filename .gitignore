@@ -398,6 +398,26 @@ FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
 .vscode/*
+
+# Project-specific ignores
+# Build output
+/wedding-website/dist/
+# Local build cache
+/wedding-website/.cache
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# OS files
+.DS_Store
+Thumbs.db
+# Local environment files
+.env
+.env.local
+# Coverage & temp
+coverage/
+tmp/
+temp/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
