@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Alejandra & Juan's Wedding - December 19, 2026 in Tepoztlan, Morelos, Mexico">
+    <meta name="description" content="Boda de Alejandra & Juan - 19 de Diciembre de 2026 en Tepoztlán, Morelos, Mexico">
     <meta name="theme-color" content="#000000">
-    <title>Alejandra & Juan - Our Wedding</title>
+    <title>Alejandra & Juan - Nuestra Boda</title>
     <!-- Performance optimizations -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
@@ -21,10 +21,18 @@
         <div class="nav-container">
             <div class="logo">Alejandra & Juan</div>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="pages/about.html" class="nav-link">About Us</a></li>
-                <li><a href="#why-tepoztlan" class="nav-link">Why Tepoztlan</a></li>
+                <li><a href="index.html" class="nav-link" data-i18n="nav-home">Inicio</a></li>
+                <li><a href="pages/about.html" class="nav-link" data-i18n="nav-about">Sobre Nosotros</a></li>
+                <li><a href="#why-tepoztlan" class="nav-link" data-i18n="nav-why">Por Qué Tepoztlán</a></li>
             </ul>
+            <div class="language-selector">
+                <button id="lang-es" class="lang-btn active" title="Espanol">
+                    <span class="flag">MX</span>
+                </button>
+                <button id="lang-en" class="lang-btn" title="English">
+                    <span class="flag">EN</span>
+                </button>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -36,30 +44,29 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Alejandra & Juan</h1>
-            <p>We're Getting Married!</p>
+            <h1 data-i18n="hero-names">Alejandra & Juan</h1>
+            <p data-i18n="hero-subtitle">¡Nos Casamos!</p>
             <div class="wedding-date">
-                <h2>December 19, 2026</h2>
-                <p>Tepoztlán, Morelos, México</p>
+                <h2 data-i18n="hero-date">19 de Diciembre de 2026</h2>
+                <p data-i18n="hero-location">Tepoztlan, Morelos, Mexico</p>
             </div>
-            <a href="pages/events.html" class="btn btn-primary">View Details</a>
         </div>
         <div class="countdown">
             <div class="countdown-item">
                 <span id="days">0</span>
-                <p>Days</p>
+                <p data-i18n="countdown-days">Días</p>
             </div>
             <div class="countdown-item">
                 <span id="hours">0</span>
-                <p>Hours</p>
+                <p data-i18n="countdown-hours">Horas</p>
             </div>
             <div class="countdown-item">
                 <span id="minutes">0</span>
-                <p>Minutes</p>
+                <p data-i18n="countdown-minutes">Minutos</p>
             </div>
             <div class="countdown-item">
                 <span id="seconds">0</span>
-                <p>Seconds</p>
+                <p data-i18n="countdown-seconds">Segundos</p>
             </div>
         </div>
     </section>
@@ -67,42 +74,73 @@
     <!-- About Us Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2>Our Story</h2>
+            <h2 data-i18n="about-title">Nuestra Historia</h2>
             <div style="text-align: center; padding: 2rem;">
-                <p style="font-size: 1.1rem; color: #666; margin-bottom: 1rem;">
-                    Learn more about how we met and our journey together!
-                </p>
-                <a href="pages/about.html" class="btn btn-primary">Read Our Full Story</a>
+                <a href="pages/about.html" class="btn btn-primary" data-i18n="about-link">Lee Más Sobre Nosotros</a>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>A Little About Us</h3>
-                    <p>
-                        We're so excited to share this special day with all of you! Our love story is unique, 
-                        and we can't wait to celebrate it surrounded by the people we care about most.
+                    <h3 data-i18n="about-heading">Un Mensaje Para Nuestros Invitados</h3>
+                    <p data-i18n="about-paragraph-1">
+                        Estamos muy emocionados de compartir este día especial con todos ustedes! Como todo gran amor nuestra historia es única, y no podemos esperar a celebrarla rodeados de personas que han acompañado nuestro amor y son tan importantes para nosotros.
                     </p>
-                    <p>
-                        We've spent countless wonderful moments together, and now we're ready to take the next 
-                        step in our journey. Thank you for being a part of our lives!
+                    <p data-i18n="about-paragraph-2">
+                        Hemos pasado innumerables momentos maravillosos juntos, y ahora estamos listos para dar el siguiente paso en nuestro viaje.
+                        ¡Gracias por ser parte de nuestras vidas!
                     </p>
                 </div>
                 <div class="couple-photos">
                     <div class="photo-frame">
-                        <div class="placeholder-img">Alejandra's Photo</div>
+                        <div class="placeholder-img" data-i18n="photo-alejandra">Foto de Alejandra</div>
                     </div>
                     <div class="photo-frame">
-                        <div class="placeholder-img">Juan's Photo</div>
+                        <div class="placeholder-img" data-i18n="photo-juan">Foto de Juan</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Events Section -->
-    <section id="events" class="events">
+    <!-- Why Tepoztlan Section -->
+    <section id="why-tepoztlan" class="why-tepoztlan">
         <div class="container">
-            <h2>Wedding Events</h2>
-            <div class="events-grid">
+            <h2 data-i18n="why-title">¿Por Qué Tepoztlán?</h2>
+            <p class="section-intro" data-i18n="why-intro">Un lugar mágico para un momento mágico</p>
+            
+            <div class="tepoztlan-content">
+                <div class="tepoztlan-text">
+                    <h3 data-i18n="why-heading">Un Lugar Especial para un Momento Especial</h3>
+                    <p data-i18n="why-paragraph-1"></p>
+                    <p data-i18n="why-paragraph-2"></p>
+                    <p data-i18n="why-paragraph-3"></p>
+                </div>
+                
+                <div class="tepoztlan-gallery-column">
+                    <div class="tepoztlan-gallery">
+                        <div class="gallery-item
+                        ">
+                            <img src="pictures/tepoz/tepoz2019.jpg" alt="Tepoztlán 2019">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="pictures/tepoz/tepoz2020.jpg" alt="Tepoztlán 2020">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="pictures/tepoz/tepoz2024.jpg" alt="Tepoztlán 2024">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="pictures/tepoz/tepoz2025.jpg" alt="Tepoztlán 2025">
+                        </div>
+                    </div>
+                    <div style="text-align: center; padding: 2rem 0;">
+                        <a href="https://photos.app.goo.gl/LuEodyDzQLuemxP98" target="_blank" class="btn btn-primary" data-i18n="gallery-link">Ver Más Fotos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section - Hidden -->
+    <section id="events" class="events" style="display: none;">
                 <!-- Welcome Dinner -->
                 <div class="event-card">
                     <div class="event-icon">
@@ -153,364 +191,6 @@
                 <div class="event-card highlight">
                     <div class="event-icon">
                         <i class="fas fa-music"></i>
-                    </div>
-                    <h3>Reception & Celebration</h3>
-                    <p class="date">December 19, 2026</p>
-                    <p class="time">6:00 PM - 11:00 PM</p>
-                    <p class="location">
-                        <i class="fas fa-map-marker-alt"></i>
-                        Tepoztlán, Morelos, México
-                    </p>
-                    <p class="description">Dancing, dining, and celebration! Cocktail hour from 5:00-6:00 PM</p>
-                    <a href="pages/events.html" class="btn btn-small">View Details</a>
-                </div>
-
-                <!-- Farewell Brunch -->
-                <div class="event-card">
-                    <div class="event-icon">
-                        <i class="fas fa-coffee"></i>
-                    </div>
-                    <h3>Farewell Brunch</h3>
-                    <p class="date">June 16, 2026</p>
-                    <p class="time">10:00 AM</p>
-                    <p class="location">
-                        <i class="fas fa-map-marker-alt"></i>
-                        Brunch Venue Name & Address
-                    </p>
-                    <p class="description">A casual goodbye before guests depart.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Tepoztlan Section -->
-    <section id="why-tepoztlan" class="why-tepoztlan">
-        <div class="container">
-            <h2>Why Tepoztlan?</h2>
-            <p class="section-intro">Discover the magic of our wedding destination</p>
-            
-            <div class="tepoztlan-content">
-                <div class="tepoztlan-text">
-                    <h3>A Special Place for a Special Moment</h3>
-                    <p>
-                        Tepoztlan holds a special place in our hearts. This charming pueblo magico in Morelos, Mexico, 
-                        combines breathtaking natural beauty with rich cultural heritage. The dramatic mountain backdrop, 
-                        vibrant local art scene, and warm community made it the perfect setting for our celebration.
-                    </p>
-                    <p>
-                        From the iconic Tepozteco pyramid standing majestically over the town to the colorful colonial 
-                        architecture and welcoming spirit of the locals, every element of Tepoztlan resonates with our vision 
-                        for a meaningful and memorable wedding day.
-                    </p>
-                    <p>
-                        We wanted a destination that reflects who we are - adventurous, cultural, and deeply connected to 
-                        Mexico's beauty. Tepoztlan offers all of this and more, making it the ideal backdrop for saying "I do."
-                    </p>
-                </div>
-                
-                <div class="tepoztlan-gallery">
-                    <div class="gallery-item">
-                        <div class="gallery-placeholder">Tepozteco Pyramid</div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-placeholder">Town Square</div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-placeholder">Mountain Views</div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-placeholder">Local Culture</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Timeline Section - Preview only -->
-    <section class="timeline">
-        <div class="container">
-            <h2>Day-Of Timeline</h2>
-            <p style="text-align: center; margin-bottom: 2rem; color: #666;">
-                <a href="pages/events.html" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">View the complete timeline on our Events page →</a>
-            </p>
-            <div class="timeline-container">
-                <div class="timeline-item">
-                    <div class="timeline-time">2:00 PM</div>
-                    <div class="timeline-content">
-                        <h4>Arrivals & Seating</h4>
-                        <p>Ceremony venue doors open for guests</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-time">4:00 PM</div>
-                    <div class="timeline-content">
-                        <h4>Ceremony Begins</h4>
-                        <p>The moment we say "I do"</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-time">4:45 PM</div>
-                    <div class="timeline-content">
-                        <h4>Ceremony Ends & Photos</h4>
-                        <p>Family and group photos</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-time">5:00 PM</div>
-                    <div class="timeline-content">
-                        <h4>Cocktail Hour</h4>
-                        <p>Appetizers, drinks, and mingling at the reception venue</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-time">6:00 PM</div>
-                    <div class="timeline-content">
-                        <h4>Grand Entrance</h4>
-                        <p>Newlyweds enter the reception hall</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-time">6:15 PM</div>
-                    <div class="timeline-content">
-                        <h4>Dinner Service</h4>
-                        <p>Welcome remarks and dinner begins</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-time">7:30 PM</div>
-                    <div class="timeline-content">
-                        <h4>Toasts & First Dance</h4>
-                        <p>Special moments and celebration</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-time">8:00 PM</div>
-                    <div class="timeline-content">
-                        <h4>Dancing & Cake</h4>
-                        <p>Music and cake cutting ceremony</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Accommodations Section -->
-    <section id="accommodations" class="accommodations">
-        <div class="container">
-            <h2>Accommodations</h2>
-            <p class="section-intro">We're so glad you can celebrate with us! Here are some lodging options for out-of-town guests.</p>
-            
-            <div style="text-align: center; margin: 2rem 0;">
-                <a href="pages/accommodations.html" class="btn btn-primary">View All Accommodations & Travel Info</a>
-            </div>
-
-            <div class="hotel-grid">
-                <div class="hotel-card">
-                    <h3>Hotel Name 1</h3>
-                    <p class="address">
-                        <i class="fas fa-map-marker-alt"></i>
-                        123 Main Street, City, State 12345
-                    </p>
-                    <p class="distance">3 miles from ceremony venue</p>
-                    <p class="price">$120-150/night</p>
-                    <p class="phone">
-                        <i class="fas fa-phone"></i>
-                        (555) 123-4567
-                    </p>
-                    <p class="note">Special rate available with code: ALEJUAN2026</p>
-                </div>
-
-                <div class="hotel-card">
-                    <h3>Hotel Name 2</h3>
-                    <p class="address">
-                        <i class="fas fa-map-marker-alt"></i>
-                        456 Oak Avenue, City, State 12345
-                    </p>
-                    <p class="distance">5 miles from ceremony venue</p>
-                    <p class="price">$100-130/night</p>
-                    <p class="phone">
-                        <i class="fas fa-phone"></i>
-                        (555) 987-6543
-                    </p>
-                    <p class="note">Free breakfast included</p>
-                </div>
-
-                <div class="hotel-card">
-                    <h3>Airbnb Options</h3>
-                    <p class="address">
-                        <i class="fas fa-map-marker-alt"></i>
-                        Various locations in City
-                    </p>
-                    <p class="distance">Within walking distance to downtown</p>
-                    <p class="price">$80-200/night</p>
-                    <p class="phone">
-                        <i class="fas fa-globe"></i>
-                        www.airbnb.com
-                    </p>
-                    <p class="note">Great for groups or longer stays</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- RSVP Section -->
-    <section id="rsvp" class="rsvp">
-        <div class="container">
-            <h2>RSVP</h2>
-            <p class="section-intro">Please let us know if you can celebrate with us!</p>
-            
-            <form class="rsvp-form" id="rsvpForm">
-                <div class="form-group">
-                    <label for="name">Your Full Name *</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email Address *</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone">
-    <!-- RSVP Section -->
-    <section id="rsvp" class="rsvp">
-        <div class="container">
-            <h2>RSVP</h2>
-            <p class="section-intro">Please let us know if you can celebrate with us!</p>
-            <p style="text-align: center; margin-bottom: 1.5rem; color: rgba(255, 255, 255, 0.9);">
-                <a href="pages/rsvp.html" style="color: var(--secondary-color); font-weight: 600; text-decoration: none;">➜ Go to RSVP Form</a>
-            </p>
-            
-            <form class="rsvp-form" id="rsvpForm">/option>
-                        <option value="2">2 Guests</option>
-                        <option value="3">3 Guests</option>
-                        <option value="4">4 Guests</option>
-                        <option value="5">5+ Guests</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label>Will You Attend? *</label>
-                    <div class="radio-group">
-                        <label class="radio-label">
-                            <input type="radio" name="attendance" value="yes" required>
-                            Yes, with great joy!
-                        </label>
-                        <label class="radio-label">
-                            <input type="radio" name="attendance" value="no" required>
-                            Regretfully, I cannot attend
-                        </label>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="dietary">Dietary Restrictions</label>
-                    <textarea id="dietary" name="dietary" placeholder="Please let us know of any dietary restrictions or allergies..."></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="song">Song Request for Reception</label>
-                    <input type="text" id="song" name="song" placeholder="Let us know your favorite song!">
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message to the Couple</label>
-                    <textarea id="message" name="message" placeholder="Share your well wishes or a special memory..."></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Submit RSVP</button>
-            </form>
-
-            <p class="rsvp-deadline">
-                <i class="fas fa-calendar-alt"></i>
-                RSVP Deadline: May 15, 2026
-            </p>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section id="faq" class="faq">
-        <div class="container">
-            <h2>Frequently Asked Questions</h2>
-            
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <h3>What should I wear?</h3>
-                    <p>
-                        The dress code is <strong>Black Tie Optional</strong>. Feel free to dress to impress! 
-                        Women typically wear dresses or elegant pantsuits, and men wear tuxedos or dark suits.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Can I bring a guest?</h3>
-                    <p>
-    <!-- FAQ Section -->
-    <section id="faq" class="faq">
-        <div class="container">
-            <h2>Frequently Asked Questions</h2>
-            <p style="text-align: center; margin-bottom: 2rem; color: #666;">
-                <a href="pages/faq.html" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">View all FAQs and get complete answers →</a>
-            </p>
-            
-            <div class="faq-grid">em">
-                    <h3>Is there a gift registry?</h3>
-                    <p>
-                        We're registered at [Registry Site 1] and [Registry Site 2]. However, your presence is the 
-                        greatest gift. No gift is necessary!
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>What is the weather like in June?</h3>
-                    <p>
-                        June in [Location] typically has pleasant weather with temperatures around 75-85°F. 
-                        We'll have indoor and outdoor areas available.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Will there be alcohol?</h3>
-                    <p>
-                        Yes, we'll have a full bar at the reception with beer, wine, and cocktails. 
-                        Non-alcoholic beverages will also be available.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Can I take photos?</h3>
-                    <p>
-                        Feel free to take photos during the ceremony and reception! Please tag us on social media 
-                        using #AlejandraAndJuan2026. We also have a professional photographer.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>What time should I arrive?</h3>
-                    <p>
-                        Please plan to arrive 30 minutes before the ceremony begins at 4:00 PM. 
-                        Doors open at 2:00 PM for seating.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Is parking available?</h3>
-                    <p>
-                        Yes, complimentary parking is available at both the ceremony and reception venues. 
-                        Valet service will be provided at the reception.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Who should I contact with questions?</h3>
-                    <p>
-                        Feel free to reach out to us anytime! Email: alejandra.juan.2026@email.com 
-                        or call us at (555) 123-4567.
-                    </p>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Footer -->
@@ -518,22 +198,23 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Contact Us</h3>
+                    <h3 data-i18n="footer-contact">Contáctanos</h3>
                     <p><i class="fas fa-envelope"></i> alejandra.juan.2026@email.com</p>
-                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-phone"></i> +52 (555) 123-4567</p>
                 </div>
                 <div class="footer-section">
-                    <h3>Location</h3>
-                    <p>Tepoztlán, Morelos, México</p>
-                    <p>December 19, 2026</p>
+                    <h3 data-i18n="footer-location">Ubicación</h3>
+                    <p data-i18n="footer-location-details">Tepoztlán, Morelos, México</p>
+                    <p data-i18n="footer-date">19 de Diciembre de 2026</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Alejandra & Juan. All rights reserved.</p>
+                <p data-i18n="footer-copyright">&copy; 2026 Alejandra & Juan. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
 
     <script src="script.js" defer></script>
+    <script src="language.js" defer></script>
 </body>
 </html>

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ - Alejandra & Juan's Wedding</title>
+    <meta name="description" content="Preguntas Frecuentes - Boda de Alejandra & Juan">
+    <title>Preguntas Frecuentes - Boda de Alejandra & Juan</title>
     <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-/jR5WcLvt6scGNsVMP/YxrgqrzhBMtsL8/VYxZqSuRjc0RPZ93v2bAfI2xc+/rKHfVYvMY6iNLstqEujG+DCzA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -13,13 +14,18 @@
         <div class="nav-container">
             <div class="logo">Alejandra & Juan</div>
             <ul class="nav-menu">
-                <li><a href="../index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About Us</a></li>
-                <li><a href="events.html" class="nav-link">Events</a></li>
-                <li><a href="accommodations.html" class="nav-link">Accommodations</a></li>
-                <li><a href="rsvp.html" class="nav-link">RSVP</a></li>
-                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="../index.html" class="nav-link" data-i18n="nav-home">Inicio</a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav-about">Sobre Nosotros</a></li>
+                <li><a href="../index.html#why-tepoztlan" class="nav-link" data-i18n="nav-why">Por Que Tepoztlan</a></li>
             </ul>
+            <div class="language-selector">
+                <button id="lang-es" class="lang-btn active" title="Espanol">
+                    <span class="flag">MX</span>
+                </button>
+                <button id="lang-en" class="lang-btn" title="English">
+                    <span class="flag">EN</span>
+                </button>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -186,6 +192,7 @@
         </div>
     </footer>
 
-    <script src="../script.js"></script>
+    <script src="../script.js" defer></script>
+    <script src="../language.js" defer></script>
 </body>
 </html>
