@@ -1,0 +1,9 @@
+{
+  "name": "wedding-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "live-server --port=8080",
+    "serve": "http-server ./ -p 8080 -c-1"
+  }
+}
