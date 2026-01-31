@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      # Install dependencies in the subdirectory
+      - cd wedding-website
+      - npm install
+  build:
+    commands:
+      # Run the build script defined in wedding-website/package.json
+      - npm run build
+artifacts:
+  files:
+    # All files from the generated dist directory
+    - '**/*'
+  base-directory: 'wedding-website/dist'
