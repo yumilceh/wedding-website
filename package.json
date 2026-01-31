@@ -1,6 +1,10 @@
 {
-  "devDependencies": {
-    "copyfiles": "^2.4.1",
-    "rimraf": "^6.1.2"
-  }
+  "name": "wedding-website",
+  "version": "1.0.0",
+  "description": "Ale & Juan Wedding Website",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Juan",
+  "license": "ISC"
 }
