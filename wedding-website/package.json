@@ -6,6 +6,6 @@
     "start": "live-server --port=8080",
     "serve": "http-server ./ -p 8080 -c-1",
     "clean": "npx rimraf dist",
-    "build": "npm run clean && copyfiles \"./**/*\" dist -e node_modules -e dist -e .git -e package.json -e package-lock.json"
+    "build": "npm run clean && npx copyfiles \"./**/*\" dist -e node_modules -e dist -e .git -e package.json -e package-lock.json"
   }
 }
