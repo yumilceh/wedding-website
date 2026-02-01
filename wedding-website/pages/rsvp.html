@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="RSVP - Boda de Alejandra & Juan">
-    <title>RSVP - Boda de Alejandra & Juan</title>
+    <title data-i18n="rsvp-title">RSVP - Boda de Alejandra & Juan</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-/jR5WcLvt6scGNsVMP/YxrgqrzhBMtsL8/VYxZqSuRjc0RPZ93v2bAfI2xc+/rKHfVYvMY6iNLstqEujG+DCzA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
@@ -12,7 +12,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">Alejandra & Juan</div>
+            <div class="logo" data-i18n="hero-names">Alejandra & Juan</div>
             <ul class="nav-menu">
                 <li><a href="../index.html" class="nav-link" data-i18n="nav-home">Inicio</a></li>
                 <li><a href="about.html" class="nav-link" data-i18n="nav-about">Sobre Nosotros</a></li>
@@ -37,90 +37,90 @@
     <!-- RSVP Section -->
     <section id="rsvp" class="rsvp" style="padding-top: 120px;">
         <div class="container">
-            <h2>RSVP</h2>
-            <p class="section-intro">Please let us know if you can celebrate with us!</p>
+            <h2 data-i18n="rsvp-title">RSVP</h2>
+            <p class="section-intro" data-i18n="rsvp-intro">Please let us know if you can celebrate with us!</p>
             
             <form class="rsvp-form" id="rsvpForm">
                 <div class="form-group">
-                    <label for="name">Your Full Name *</label>
+                    <label for="name" data-i18n="rsvp-form-name">Your Full Name *</label>
                     <input type="text" id="name" name="name" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email Address *</label>
+                    <label for="email" data-i18n="rsvp-form-email">Email Address *</label>
                     <input type="email" id="email" name="email" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="phone">Phone Number</label>
+                    <label for="phone" data-i18n="rsvp-form-phone">Phone Number</label>
                     <input type="tel" id="phone" name="phone">
                 </div>
 
                 <div class="form-group">
-                    <label for="guests">Number of Guests *</label>
+                    <label for="guests" data-i18n="rsvp-form-guests">Number of Guests *</label>
                     <select id="guests" name="guests" required>
-                        <option value="">Select...</option>
-                        <option value="1">1 Guest</option>
-                        <option value="2">2 Guests</option>
-                        <option value="3">3 Guests</option>
-                        <option value="4">4 Guests</option>
-                        <option value="5">5+ Guests</option>
+                        <option value="" data-i18n="rsvp-form-guests-select">Select...</option>
+                        <option value="1" data-i18n="rsvp-form-guests-1">1 Guest</option>
+                        <option value="2" data-i18n="rsvp-form-guests-2">2 Guests</option>
+                        <option value="3" data-i18n="rsvp-form-guests-3">3 Guests</option>
+                        <option value="4" data-i18n="rsvp-form-guests-4">4 Guests</option>
+                        <option value="5" data-i18n="rsvp-form-guests-5">5+ Guests</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label>Will You Attend? *</label>
+                    <label data-i18n="rsvp-form-attendance">Will You Attend? *</label>
                     <div class="radio-group">
                         <label class="radio-label">
                             <input type="radio" name="attendance" value="yes" required>
-                            Yes, with great joy!
+                            <span data-i18n="rsvp-form-attendance-yes">Yes, with great joy!</span>
                         </label>
                         <label class="radio-label">
                             <input type="radio" name="attendance" value="no" required>
-                            Regretfully, I cannot attend
+                            <span data-i18n="rsvp-form-attendance-no">Regretfully, I cannot attend</span>
                         </label>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="dietary">Dietary Restrictions</label>
-                    <textarea id="dietary" name="dietary" placeholder="Please let us know of any dietary restrictions or allergies..."></textarea>
+                    <label for="dietary" data-i18n="rsvp-form-dietary">Dietary Restrictions</label>
+                    <textarea id="dietary" name="dietary" data-i18n="rsvp-form-dietary-placeholder" placeholder="Please let us know of any dietary restrictions or allergies..."></textarea>
                 </div>
 
                 <div class="form-group">
-                    <label for="song">Song Request for Reception</label>
-                    <input type="text" id="song" name="song" placeholder="Let us know your favorite song!">
+                    <label for="song" data-i18n="rsvp-form-song">Song Request for Reception</label>
+                    <input type="text" id="song" name="song" data-i18n="rsvp-form-song-placeholder" placeholder="Let us know your favorite song!">
                 </div>
 
                 <div class="form-group">
-                    <label for="message">Message to the Couple</label>
-                    <textarea id="message" name="message" placeholder="Share your well wishes or a special memory..."></textarea>
+                    <label for="message" data-i18n="rsvp-form-message">Message to the Couple</label>
+                    <textarea id="message" name="message" data-i18n="rsvp-form-message-placeholder" placeholder="Share your well wishes or a special memory..."></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Submit RSVP</button>
+                <button type="submit" class="btn btn-primary" data-i18n="rsvp-form-submit">Submit RSVP</button>
             </form>
 
             <p class="rsvp-deadline">
                 <i class="fas fa-calendar-alt"></i>
-                RSVP Deadline: November 15, 2026
+                <span data-i18n="rsvp-deadline">RSVP Deadline: November 15, 2026</span>
             </p>
 
             <!-- RSVP Instructions -->
             <div style="background: white; padding: 2rem; border-radius: var(--border-radius); margin-top: 3rem; box-shadow: var(--box-shadow); color: var(--text-color);">
-                <h3 style="color: var(--primary-color); margin-bottom: 1rem;">How to RSVP</h3>
+                <h3 style="color: var(--primary-color); margin-bottom: 1rem;" data-i18n="how-to-rsvp">How to RSVP</h3>
                 <ol style="padding-left: 1.5rem; line-height: 1.8;">
-                    <li><strong>Fill out the form above</strong> with your information</li>
-                    <li><strong>Indicate your attendance</strong> status (yes or no)</li>
-                    <li><strong>Let us know your dietary needs</strong> if any</li>
-                    <li><strong>Add any special requests</strong> like song preferences</li>
-                    <li><strong>Submit the form</strong> before the deadline</li>
+                    <li data-i18n="how-to-rsvp-step-1"><strong>Fill out the form above</strong> with your information</li>
+                    <li data-i18n="how-to-rsvp-step-2"><strong>Indicate your attendance</strong> status (yes or no)</li>
+                    <li data-i18n="how-to-rsvp-step-3"><strong>Let us know your dietary needs</strong> if any</li>
+                    <li data-i18n="how-to-rsvp-step-4"><strong>Add any special requests</strong> like song preferences</li>
+                    <li data-i18n="how-to-rsvp-step-5"><strong>Submit the form</strong> before the deadline</li>
                 </ol>
                 
                 <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #eee;">
-                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Questions?</h4>
-                    <p>If you have any questions or concerns about your RSVP, please don't hesitate to contact us:</p>
-                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> alejandra.juan.2026@email.com</p>
-                    <p><i class="fas fa-phone"></i> <strong>Phone:</strong> (555) 123-4567</p>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;" data-i18n="rsvp-questions">Questions?</h4>
+                    <p data-i18n="rsvp-questions-intro">If you have any questions or concerns about your RSVP, please don't hesitate to contact us:</p>
+                    <p data-i18n="rsvp-questions-email"><i class="fas fa-envelope"></i> <strong>Email:</strong> boda.ale.y.juan.2026@gmail.com</p>
+                    <p data-i18n="rsvp-questions-phone"><i class="fas fa-phone"></i> <strong>Phone:</strong> +31 683 043 127 </p>
                 </div>
             </div>
         </div>
@@ -131,12 +131,12 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Contact Us</h3>
-                    <p><i class="fas fa-envelope"></i> alejandra.juan.2026@email.com</p>
-                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <h3 data-i18n="footer-contact">Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> boda.ale.y.juan.2026@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +31 683 043 127 </p>
                 </div>
                 <div class="footer-section">
-                    <h3>Follow Us</h3>
+                    <h3 data-i18n="footer-follow-us">Follow Us</h3>
                     <div class="social-links">
                         <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
@@ -144,13 +144,13 @@
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h3>Location</h3>
-                    <p>Tepoztlán, Morelos, México</p>
-                    <p>December 19, 2026</p>
+                    <h3 data-i18n="footer-location">Location</h3>
+                    <p data-i18n="footer-location-details">Tepoztlán, Morelos, México</p>
+                    <p data-i18n="footer-date">December 19, 2026</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Alejandra & Juan. All rights reserved.</p>
+                <p data-i18n="footer-copyright">&copy; 2026 Alejandra & Juan. All rights reserved.</p>
             </div>
         </div>
     </footer>
