@@ -14,9 +14,9 @@
         <div class="nav-container">
             <div class="logo" data-i18n="hero-names"></div>
             <ul class="nav-menu">
-                <li><a href="../index.html" class="nav-link" data-i18n="nav-home">Inicio</a></li>
-                <li><a href="about.html" class="nav-link" data-i18n="nav-about">Sobre Nosotros</a></li>
-                <li><a href="../index.html#why-tepoztlan" class="nav-link" data-i18n="nav-why">Por Qué Tepoztlán</a></li>
+                <li><a href="../index.html" class="nav-link" data-i18n="nav-home"></a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav-about"></a></li>
+                <li><a href="../index.html#why-tepoztlan" class="nav-link" data-i18n="nav-why"></a></li>
             </ul>
             <div class="language-selector">
                 <button id="lang-es" class="lang-btn active" title="Espanol">
@@ -53,35 +53,37 @@
                     <div class="photo-frame">
                         <div class="placeholder-img" data-i18n="photo-alejandra"></div>
                     </div>
-                    <div class="photo-frame">
-                        <div class="placeholder-img" data-i18n="photo-juan"></div>
-                    </div>
                 </div>
             </div>
 
             <!-- Timeline of Important Dates -->
-            <div class="important-dates" style="margin-top: 4rem;">
+            <div class="important-dates">
                 <h3 style="text-align: center; color: var(--primary-color); margin-bottom: 2rem;" data-i18n="about-important-dates"></h3>
-                <div class="dates-grid">
+                <div class="dates-grid about-dates-grid">
                     <div class="date-card">
                         <h4 data-i18n="about-when-met"></h4>
                         <p class="date-value" data-i18n="about-when-met-date"></p>
                         <p data-i18n="about-location-context"></p>
                     </div>
                     <div class="date-card">
-                        <h4 data-i18n="about-first-date">Primer Cita</h4>
-                        <p class="date-value">[Mes Día, Año]</p>
-                        <p data-i18n="about-where-did">[Dónde o qué hicieron]</p>
+                        <h4 data-i18n="about-first-date"></h4>
+                        <p class="date-value" data-i18n="about-first-date-date"></p>
+                        <p data-i18n="about-where-did"></p>
                     </div>
                     <div class="date-card">
-                        <h4 data-i18n="about-proposal">La Propuesta</h4>
-                        <p class="date-value">[Mes Día, Año]</p>
-                        <p data-i18n="about-how-proposed">[Cómo y dónde Juan propuso]</p>
+                        <h4 data-i18n="about-moving-together"></h4>
+                        <p class="date-value" data-i18n="about-moving-together-date"></p>
+                        <p data-i18n="about-moving-together-context"></p>
                     </div>
                     <div class="date-card">
-                        <h4 data-i18n="about-wedding-day">Nuestro Día de Boda</h4>
-                        <p class="date-value" data-i18n="hero-date">19 de Diciembre de 2026</p>
-                        <p data-i18n="hero-location">Tepoztlán, Morelos, México</p>
+                        <h4 data-i18n="about-proposal"></h4>
+                        <p class="date-value" data-i18n="about-proposal-date"></p>
+                        <p data-i18n="about-how-proposed"></p>
+                    </div>
+                    <div class="date-card">
+                        <h4 data-i18n="about-wedding-day"></h4>
+                        <p class="date-value" data-i18n="hero-date-card"></p>
+                        <p data-i18n="hero-location"></p>
                     </div>
                 </div>
             </div>
@@ -93,61 +95,21 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3 data-i18n="footer-contact">Contáctanos</h3>
-                    <p><i class="fas fa-envelope"></i> boda.ale.y.juan.2026@gmail.com</p>
-                    <p><i class="fas fa-phone"></i> +31 683 043 127</p>
+                    <h3 data-i18n="footer-contact"> </h3>
+                    <p><i class="fas fa-envelope"></i> <span data-i18n="footer-email"></span></p>
+                    <p><i class="fas fa-phone"></i> <span data-i18n="footer-phone"></span></p>
                 </div>
                 <div class="footer-section">
-                    <h3 data-i18n="footer-location">Ubicación</h3>
-                    <p data-i18n="footer-location-details">Tepoztlán, Morelos, México</p>
-                    <p data-i18n="footer-date">19 de Diciembre de 2026</p>
+                    <h3 data-i18n="footer-location"></h3>
+                    <p data-i18n="footer-location-details"></p>
+                    <p data-i18n="footer-date"></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p data-i18n="footer-copyright">&copy; 2026 Alejandra & Juan. Todos los derechos reservados.</p>
+                <p data-i18n="footer-copyright">&copy;  <span data-i18n="footer-copyright"></span></p>
             </div>
         </div>
     </footer>
-
-    <!-- Additional styles for dates grid -->
-    <style>
-        .dates-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .date-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-            text-align: center;
-            transition: var(--transition);
-        }
-
-        .date-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-        }
-
-        .date-card h4 {
-            color: var(--primary-color);
-            margin-bottom: 0.5rem;
-        }
-
-        .date-card .date-value {
-            font-size: 1.3rem;
-            font-weight: bold;
-            color: var(--secondary-color);
-            margin: 0.5rem 0;
-        }
-
-        .date-card p {
-            color: #666;
-            font-size: 0.95rem;
-        }
-    </style>
 
     <script src="../script.js" defer></script>
     <script src="../language.js" defer></script>

@@ -7,6 +7,10 @@ const translations = {
         'nav-home': 'Inicio',
         'nav-about': 'Más Sobre Nosotros',
         'nav-why': 'Por Qué Tepoztlán',
+
+        // Meta
+        'page-title': 'Alejandra & Juan - Nuestra Boda',
+        'meta-description': 'Boda de Alejandra & Juan - 19 de Diciembre de 2026 en Tepoztlán, Morelos, Mexico',
         
         // Hero Section
         'hero-names': 'Alejandra & Juan',
@@ -24,16 +28,27 @@ const translations = {
         'about-title': '¡Nos Casamos!',
         'about-link': 'Lee Más Sobre Nosotros',
         'about-heading': 'Un Mensaje Para Nuestros Invitados',
-        'about-paragraph-1': 'Estamos muy emocionados de compartir este día especial con todos ustedes! Como todo gran amor nuestra historia es única, y no podemos esperar a celebrarla rodeados de personas que han acompañado nuestro amor y son tan importantes para nosotros.',
-        'about-paragraph-2': 'Hemos pasado innumerables momentos maravillosos juntos, y ahora estamos listos para dar el siguiente paso en nuestro viaje. ¡Gracias por ser parte de nuestras vidas!',
+        'about-paragraph-1': 'Estamos muy emocionados de compartir este día especial con todos ustedes! Como todo gran amor nuestra historia es única, y no podemos esperar a celebrarla rodeados de personas que han acompañado en este viaje llamado vida y son tan importantes para nosotros.',
+        'about-paragraph-2': 'Juntos hemos pasado innumerables momentos maravillosos, y ahora estamos listos para dar el siguiente paso en nuestro viaje. ¡Gracias por ser parte de nuestras vidas y nos vemos en Diciembre!',
         
         // Why Tepoztlan Section
         'why-title': '¿Por Qué Tepoztlán?',
-        'why-intro': 'Un Lugar Especial para un Momento Especial',
         'why-heading': 'Un Lugar Místico Desde Siempre',
-        'why-paragraph-1': 'Tepoztlán ocupa un lugar especial en nuestros corazones. Este encantador pueblo mágico en Morelos, México, combina una belleza natural impresionante con un patrimonio cultural rico. El dramático telón de fondo de montañas, la vibrante escena de arte local, y la comunidad acogedora lo hicieron el lugar perfecto para nuestra celebración.',
-        'why-paragraph-2': 'Desde el día en que comenzamos nuestra historia juntos, hemos visitado Tepoztlán en cuatro ocasiones, y en cada una de ellas nos a envuelto un espiritú mágico. Subir a la icónica pirámide del Tepozteco se ha convertido un un ritual en que la majestuosidad se convierte en poder interior. Descender por las calles de colorida arquitectura colonial, disfrutarla comida, objetos y el espiritú mexicano en los locales es en sí suficiente para traerlos aquí. Cada elemento de Tepoztlán resuena con nuestra visión de un día de boda significativo y memorable.',
-        'why-paragraph-3': 'Queríamos un destino que refleje quiénes somos - aventureros, culturales, y profundamente conectados con la belleza de México. Tepoztlán ofrece todo esto y más, lo que lo hace el telón de fondo ideal para decir Sí, Acepto.',
+        'why-paragraph-1': 'Tepoztlán ocupa un lugar especial en nuestros corazones. Este encantador pueblo mágico en Morelos,\
+                            México, combina una belleza natural impresionante con un patrimonio  \
+                            cultural rico. El dramático telón de fondo dominado por montañas, la vibrante escena de arte local, y \
+                             la comunidad acogedora lo hicieron el lugar perfecto para nuestra celebración.',
+        'why-paragraph-2': 'Desde el día en que comenzamos nuestro caminar juntos, hemos visitado Tepoztlán en cuatro ocasiones, \
+                            en cada una de ellas nos a envuelto un espiritú mágico. Subir a la icónica pirámide del Tepozteco se ha convertido \
+                             un un ritual en que la majestuosidad se convierte en poder interior. Descender por las calles de colorida arquitectura colonial, \
+                              disfrutarla comida, objetos y el espiritú mexicano en los locales es en sí suficiente para invitarles a venir. Cada elemento de Tepoztlán \
+                               resuena con nuestra visión de un día de boda significativo y memorable.',
+        'why-paragraph-3': 'Queríamos un destino que refleje quiénes somos: aventureros, espirituales, y profundamente conectados con la belleza de México. \
+                             Tepoztlán ofrece todo eso y más, lo que lo hace el telón de fondo ideal para decir: "Sí, Acepto". ',
+        'alt-tepoztlan-2019': 'Tepoztlán 2019',
+        'alt-tepoztlan-2020': 'Tepoztlán 2020',
+        'alt-tepoztlan-2024': 'Tepoztlán 2024',
+        'alt-tepoztlan-2025': 'Tepoztlán 2025',
         'gallery-pyramid': '2019',
         'gallery-square': '2020',
         'gallery-mountains': '2024',
@@ -53,15 +68,37 @@ const translations = {
         'about-story-3': 'Agreguen más detalles sobre los hitos de su relación, las aventuras que han compartido, y los momentos que los hicieron darse cuenta que querían pasar el resto de sus vidas juntos.',
         'about-important-dates': 'Nuestras Fechas Importantes',
         'about-when-met': '¿Cuándo Nos Conocimos?',
-        'about-when-met-date': 'Agosto de 2004',
-        'about-location-context': 'En 2007, en la preparatoria, con los amigos de la jardinera. Juan jura haber notado a Alejandra mucho antes.',
+        'about-when-met-date': 'Agosto, 2004',
+        'about-location-context': 'En la preparatoria, con los amigos de la jardinera. Juan jura haber notado a Alejandra mucho antes.',
         'about-first-date': 'Primer Cita',
-        'about-where-did': '[Dónde o qué hicieron]',
+        'about-first-date-date': 'Diciembre 21, 2017',
+        'about-where-did': 'Coyoacán, Ciudad de México. Cenamos y nos bebimos unos mezcales, después fuimos a una fiesta con Ana Clark. Lo demás es historia.',
+        'about-moving-together': 'Mudanza Juntos',
+        'about-moving-together-date': '22 Julio, 2021',
+        'about-moving-together-context': 'Alejandra se mudó a Amsterdam, y junstos llenamos la casa de plantas.',
         'about-proposal': 'La Propuesta',
-        'about-how-proposed': '[Cómo y dónde Juan propuso]',
+        'about-proposal-date': '20 Abril, 2025',
+        'about-how-proposed': 'En Playa del Carmen, junto al mar de noche, bajo miles de estrellas, frente a las luces de Cozumel, y ninguna otro ser mas que Dios universo atestiguandolo. ',
         'about-wedding-day': 'Nuestro Día de Boda',
+        "hero-date-card": '19 Diciembre, 2026',
 
         // Events
+        'events-welcome-dinner': 'Welcome Dinner',
+        'events-welcome-dinner-date': 'June 13, 2026',
+        'events-welcome-dinner-time': '6:00 PM',
+        'events-welcome-dinner-location': 'Restaurant Name & Address',
+        'events-welcome-dinner-description': 'Join us for an informal dinner to kick off the celebration!',
+        'events-rehearsal-dinner': 'Rehearsal Dinner',
+        'events-rehearsal-dinner-date': 'June 14, 2026',
+        'events-rehearsal-dinner-time': '7:00 PM',
+        'events-rehearsal-dinner-location': 'Venue Name & Address',
+        'events-rehearsal-dinner-description': 'A special evening with the wedding party.',
+        'events-wedding-ceremony': 'Wedding Ceremony',
+        'events-wedding-ceremony-date': 'December 19, 2026',
+        'events-wedding-ceremony-time': '4:00 PM',
+        'events-wedding-ceremony-location': 'Tepoztlán, Morelos, México',
+        'events-wedding-ceremony-description': 'The main event! Ceremony duration: ~45 minutes',
+        'events-view-details': 'View Details',
         'events-title': 'Eventos',
         'events-ceremony': 'Ceremonia',
         'events-reception': 'Recepción',
@@ -262,6 +299,8 @@ const translations = {
         'footer-location': 'Ubicación',
         'footer-location-details': 'Tepoztlán, Morelos, México',
         'footer-date': '19 de Diciembre de 2026',
+        'footer-phone': '+31 683 043 127',
+        'footer-email': 'boda.ale.y.juan.2026@gmail.com',
         'footer-copyright': '© 2026 Alejandra & Juan. Todos los derechos reservados.'
     },
     en: {
@@ -269,6 +308,10 @@ const translations = {
         'nav-home': 'Home',
         'nav-about': 'About Us',
         'nav-why': 'Why Tepoztlan',
+
+        // Meta
+        'page-title': 'Alejandra & Juan - Our Wedding',
+        'meta-description': 'Alejandra & Juan\'s Wedding - December 19, 2026 in Tepoztlan, Morelos, Mexico',
         
         // Hero Section
         'hero-names': 'Alejandra & Juan',
@@ -285,22 +328,21 @@ const translations = {
         // About Section
         'about-title': 'We Are Getting Married!',
         'about-link': 'Read More About Our Story',
-        'about-heading': 'A Message To Our Guests',
-        'about-paragraph-1': 'We\'re so excited to share this special day with all of you! Our love story is unique, and we can\'t wait to celebrate it surrounded by the people we care about most.',
-        'about-paragraph-2': 'We\'ve spent countless wonderful moments together, and now we\'re ready to take the next step in our journey. Thank you for being a part of our lives!',
+        'about-heading': 'A Message for Our Guests',
+        'about-paragraph-1': 'We are thrilled to share this special day with all of you! Like every great love, our story is unique, and we cannot wait to celebrate it surrounded by the people who have accompanied us on this journey called life and are so important to us.',
+        'about-paragraph-2': 'Together, we have shared countless wonderful moments, and now we are ready to take the next step in our journey. Thank you for being part of our lives, and we\'ll see you in December!',
         
         // Why Tepoztlan Section
-        'why-title': 'Why Tepoztlan?',
-        'why-intro': 'Discover the magic of our wedding destination',
-        'why-heading': 'A Special Place for a Special Moment',
-        'why-paragraph-1': 'Tepoztlan holds a special place in our hearts. This charming pueblo magico in Morelos, Mexico, combines breathtaking natural beauty with rich cultural heritage. The dramatic mountain backdrop, vibrant local art scene, and warm community made it the perfect setting for our celebration.',
-        'why-paragraph-2': 'From the iconic Tepozteco pyramid standing majestically over the town to the colorful colonial architecture and welcoming spirit of the locals, every element of Tepoztlan resonates with our vision for a meaningful and memorable wedding day.',
-        'why-paragraph-3': 'We wanted a destination that reflects who we are - adventurous, cultural, and deeply connected to Mexico\'s beauty. Tepoztlan offers all of this and more, making it the ideal backdrop for saying "I do."',
-        'gallery-pyramid': 'Tepozteco Pyramid',
-        'gallery-square': 'Town Square',
-        'gallery-mountains': 'Mountain Views',
-        'gallery-culture': 'Local Culture',
-        'gallery-link': 'View More Photos',
+        'why-title': 'Why Tepoztlán?',
+        'why-heading': 'An Ever-Mystical Place',
+        'why-paragraph-1': 'Tepoztlán holds a special place in our hearts. This charming magical town in Morelos, Mexico, combines stunning natural beauty with a rich cultural heritage. The dramatic mountain backdrop, the vibrant local art scene, and the welcoming community made it the perfect place for our celebration.',
+        'why-paragraph-2': 'Since the day we began our journey together, we have visited Tepoztlán on four occasions, and each time a magical spirit has enveloped us. Climbing the iconic Tepozteco pyramid has become a ritual in which majesty turns into inner power. To descend through the streets of colorful colonial architecture, to enjoy the food, objects and the Mexican spirit in the locals is in itself enough to invite you to come. Every element of Tepoztlán resonates with our vision of a meaningful and memorable wedding day.',
+        'why-paragraph-3': 'We wanted a destination that reflects who we are: adventurous, spiritual, and deeply connected to the beauty of Mexico. Tepoztlán offers all that and more, making it the ideal backdrop to say: "Sí, Acepto".',
+        'alt-tepoztlan-2019': 'Tepoztlán 2019',
+        'alt-tepoztlan-2020': 'Tepoztlán 2020',
+        'alt-tepoztlan-2024': 'Tepoztlán 2024',
+        'alt-tepoztlan-2025': 'Tepoztlán 2025',
+        'gallery-link': 'See More Photos',
         
         // Photo placeholders
         'photo-alejandra': 'Alejandra\'s Photo',
@@ -323,6 +365,22 @@ const translations = {
         'about-wedding-day': 'Our Wedding Day',
 
         // Events
+        'events-welcome-dinner': 'Welcome Dinner',
+        'events-welcome-dinner-date': 'June 13, 2026',
+        'events-welcome-dinner-time': '6:00 PM',
+        'events-welcome-dinner-location': 'Restaurant Name & Address',
+        'events-welcome-dinner-description': 'Join us for an informal dinner to kick off the celebration!',
+        'events-rehearsal-dinner': 'Rehearsal Dinner',
+        'events-rehearsal-dinner-date': 'June 14, 2026',
+        'events-rehearsal-dinner-time': '7:00 PM',
+        'events-rehearsal-dinner-location': 'Venue Name & Address',
+        'events-rehearsal-dinner-description': 'A special evening with the wedding party.',
+        'events-wedding-ceremony': 'Wedding Ceremony',
+        'events-wedding-ceremony-date': 'December 19, 2026',
+        'events-wedding-ceremony-time': '4:00 PM',
+        'events-wedding-ceremony-location': 'Tepoztlán, Morelos, México',
+        'events-wedding-ceremony-description': 'The main event! Ceremony duration: ~45 minutes',
+        'events-view-details': 'View Details',
         'events-title': 'Wedding Events',
         'events-ceremony': 'Ceremony',
         'events-reception': 'Reception',
@@ -523,6 +581,7 @@ const translations = {
         'footer-location': 'Location',
         'footer-location-details': 'Tepoztlan, Morelos, Mexico',
         'footer-date': 'December 19, 2026',
+        'footer-phone': '+31 683 043 127',
         'footer-copyright': '© 2026 Alejandra & Juan. All rights reserved.'
     }
 };
@@ -552,15 +611,25 @@ function updatePageLanguage() {
             element.textContent = translations[currentLanguage][key];
         }
     });
+
+    // Update all elements with data-i18n-content attribute
+    document.querySelectorAll('[data-i18n-content]').forEach(element => {
+        const key = element.getAttribute('data-i18n-content');
+        if (translations[currentLanguage][key]) {
+            element.setAttribute('content', translations[currentLanguage][key]);
+        }
+    });
+
+    // Update all elements with data-i18n-alt attribute
+    document.querySelectorAll('[data-i18n-alt]').forEach(element => {
+        const key = element.getAttribute('data-i18n-alt');
+        if (translations[currentLanguage][key]) {
+            element.setAttribute('alt', translations[currentLanguage][key]);
+        }
+    });
     
     // Update page language attribute
     document.documentElement.lang = currentLanguage;
-    
-    // Update meta description
-    const description = currentLanguage === 'es' 
-        ? 'Boda de Alejandra & Juan - 19 de Diciembre de 2026 en Tepoztlán, Morelos, Mexico'
-        : 'Alejandra & Juan\'s Wedding - December 19, 2026 in Tepoztlan, Morelos, Mexico';
-    document.querySelector('meta[name="description"]').setAttribute('content', description);
 }
 
 // Function to update language button states
