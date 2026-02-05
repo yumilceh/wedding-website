@@ -3,3 +3,5 @@ Header always unset Strict-Transport-Security
 
 # Remove other security headers that might cause issues
 Header always unset Expect-CT
+
+ExpiresActive On ExpiresDefault "modification".
