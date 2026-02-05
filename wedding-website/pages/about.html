@@ -53,10 +53,108 @@
                     <p data-i18n="about-story-5">
                     </p>
                 </div>
-                <div class="couple-photos">
-                    <div class="photo-frame">
-                        <div class="placeholder-img" data-i18n="photo-alejandra"></div>
+                    <div class="photo-grid-container">
+                        <div class="photo-grid"></div>
                     </div>
+    <style>
+        .photo-grid-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            gap: 5px;
+            width: 100%;
+            max-width: 800px; /* Adjust as needed */
+        }
+
+        .photo-grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <script>
+        const images = [
+            "../pictures/optimized-pictures/we/2013-08-31 02.02.08.jpg",
+            "../pictures/optimized-pictures/we/IMG_20180301_180804519_HDR.jpg",
+            "../pictures/optimized-pictures/we/IMG_20180808_201235358.jpg",
+            "../pictures/optimized-pictures/we/IMG_20190207_154554761.jpg",
+            "../pictures/optimized-pictures/we/IMG_20190219_145602868.jpg",
+            "../pictures/optimized-pictures/we/IMG_20190526_152305315.jpg",
+            "../pictures/optimized-pictures/we/IMG_20190604_122417841.jpg",
+            "../pictures/optimized-pictures/we/IMG_20190604_130026525-COLLAGE.jpg",
+            "../pictures/optimized-pictures/we/IMG_20201021_182700.jpg",
+            "../pictures/optimized-pictures/we/IMG_20201206_130747.jpg",
+            "../pictures/optimized-pictures/we/IMG_20210724_210025.jpg",
+            "../pictures/optimized-pictures/we/IMG_20210808_150429.jpg",
+            "../pictures/optimized-pictures/we/IMG_20210902_140614.jpg",
+            "../pictures/optimized-pictures/we/IMG_20211007_182225.jpg",
+            "../pictures/optimized-pictures/we/IMG_20220328_154631.jpg",
+            "../pictures/optimized-pictures/we/IMG_20220604_141305.jpg",
+            "../pictures/optimized-pictures/we/IMG_20230108_112613250.jpg",
+            "../pictures/optimized-pictures/we/IMG_20230416_141500.jpg",
+            "../pictures/optimized-pictures/we/IMG_20230812_152711.jpg",
+            "../pictures/optimized-pictures/we/IMG_20230816_143838_261.jpg",
+            "../pictures/optimized-pictures/we/IMG_20230903_235219.jpg",
+            "../pictures/optimized-pictures/we/IMG_20230924_145009.jpg",
+            "../pictures/optimized-pictures/we/IMG_20231001_143256.jpg",
+            "../pictures/optimized-pictures/we/IMG_20240401_135016.jpg",
+            "../pictures/optimized-pictures/we/IMG_20240401_135321.jpg",
+            "../pictures/optimized-pictures/we/IMG_20240803_191637.jpg",
+            "../pictures/optimized-pictures/we/IMG_20240804_110727.jpg",
+            "../pictures/optimized-pictures/we/IMG_20240807_132248.jpg",
+            "../pictures/optimized-pictures/we/IMG_20241201_132333.jpg",
+            "../pictures/optimized-pictures/we/IMG_20241201_155847.jpg",
+            "../pictures/optimized-pictures/we/IMG_20241202_121252.jpg",
+            "../pictures/optimized-pictures/we/IMG_20250219_190806.jpg",
+            "../pictures/optimized-pictures/we/IMG_20250421_203833.jpg",
+            "../pictures/optimized-pictures/we/IMG_20250811_185616_1.jpg",
+            "../pictures/optimized-pictures/we/IMG_20250811_185616.jpg",
+            "../pictures/optimized-pictures/we/IMG_20250817_175917.jpg",
+            "../pictures/optimized-pictures/we/IMG_20251219_130637.jpg",
+            "../pictures/optimized-pictures/we/IMG_20251221_175622.jpg",
+            "../pictures/optimized-pictures/we/IMG-20171231-WA0005.jpg",
+            "../pictures/optimized-pictures/we/IMG-20200314-WA0006.jpeg",
+            "../pictures/optimized-pictures/we/IMG-20200722-WA0000.jpg",
+            "../pictures/optimized-pictures/we/IMG-20220524-WA0003.jpg",
+            "../pictures/optimized-pictures/we/IMG-20220926-WA0026.jpg",
+            "../pictures/optimized-pictures/we/IMG-20240225-WA0006.jpg",
+            "../pictures/optimized-pictures/we/IMG-20250420-WA0005.jpg",
+            "../pictures/optimized-pictures/we/IMG-20260123-WA0006.jpg",
+            "../pictures/optimized-pictures/we/index.jpg"
+        ];
+
+        const grid = document.querySelector('.photo-grid');
+        const numImages = 6;
+
+        function getRandomImage() {
+            return images[Math.floor(Math.random() * images.length)];
+        }
+
+        function populateGrid() {
+            grid.innerHTML = ''; // Clear the grid
+            let usedImages = new Set();
+            for (let i = 0; i < numImages; i++) {
+                let randomImage;
+                do {
+                    randomImage = getRandomImage();
+                } while (usedImages.has(randomImage));
+                usedImages.add(randomImage);
+                const img = document.createElement('img');
+                img.src = randomImage;
+                grid.appendChild(img);
+            }
+        }
+
+        populateGrid();
+        setInterval(populateGrid, 10000);
+    </script>
                 </div>
             </div>
 
