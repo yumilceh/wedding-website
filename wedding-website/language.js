@@ -62,10 +62,19 @@ const translations = {
         // About page
         'about-title': 'Nuestra Historia',
         'about-how-met': '¿Cómo Nos Conocimos?',
-        'about-story-1': 'Compartan su historia de amor aquí. Digan a sus invitados cómo se conocieron, los momentos especiales que llevaron a este día, y qué hace que su relación sea única.',
-        'about-story-2': 'Incluyan detalles sobre la propuesta, fechas memorables, y por qué están emocionados de celebrar con sus seres queridos.',
+        'about-story-1': 'Si nos dejas un ratito sentados, nos convenceriamos de que nos conocimos hace muchos milenios, Alejandra segura de que la reencarnación existe, Juan dando una teoría quasicientífica \
+                        pero que en su corazón es la única que teoría que tiene sentido. Juan se sienta la mira, y se conmueve de amor, ella se sienta lo mira y se sabe amada.',
+        'about-story-2': 'Nos concimos en 2004, cuando cursabamos la preparatoria, aunque Juan probablemente miro a Alejandra algunas tardes de 2003 en el patío de ese prepa, aun sin conocerla pero atraído, la recuerda en su uniforme azul.  \
+                          Fuimos amigos, nos coqueteamos, nos escribimos, nos intentamos, nos besamos, nos despedimos, nos fastidiamos, nos reencontramos. Y así, después de 13 años de conocernos,  \
+                          supimos, sospechamos, que sería para siempre.',
         'about-journey': 'Nuestro Viaje Juntos',
-        'about-story-3': 'Agreguen más detalles sobre los hitos de su relación, las aventuras que han compartido, y los momentos que los hicieron darse cuenta que querían pasar el resto de sus vidas juntos.',
+        'about-story-3': 'No queremos fastidiarlos con los ires y venires de tres años de relación a distancia, \
+                          de viajes juntos, de mensajes, audios, llamadas interminables, de tristezas y nostalgías, \
+                          de ganas de converger. Fuer por fin 2021 cuando Alejandra se mudo a Amsterdam, y juntos llenamos la casa de plantas, de historia, de amor. \
+                          Juntos hemos viajado, hemos crecido, hemos aprendido uno del otro, hemos llegado y nos hemos venido. Hemos contruído un hogar, hemos contruído una empresa, nos hemos construído la vida.',
+        'about-story-4': 'Y la vida necesita una casa, y esa casa de nuesta vida es el amor materializado en nuestro matrimonio. Hemos colocado los cimientos, y ahora le pondremos muros y ventanas, y ya veremos que tanto más, \
+                         con la certeza de que no importaran los altibajos de la vida, porque en nuestra casa siempre tendremos el refugió amoroso, para construirnos y deconstruirnos, para seguir y trascender juntos.',
+        'about-story-5': 'Poríamos decir muchas cosas mas de nuestra historía, pero nuestra historía ahora tambien toca ser contada por todos aquellos que la han tocado, ustedes, nuestra familia y amigos, ustedes son parte. ',                 
         'about-important-dates': 'Nuestras Fechas Importantes',
         'about-when-met': '¿Cuándo Nos Conocimos?',
         'about-when-met-date': 'Agosto, 2004',
@@ -75,7 +84,7 @@ const translations = {
         'about-where-did': 'Coyoacán, Ciudad de México. Cenamos y nos bebimos unos mezcales, después fuimos a una fiesta con Ana Clark. Lo demás es historia.',
         'about-moving-together': 'Mudanza Juntos',
         'about-moving-together-date': '22 Julio, 2021',
-        'about-moving-together-context': 'Alejandra se mudó a Amsterdam, y junstos llenamos la casa de plantas.',
+        'about-moving-together-context': 'Alejandra se mudó a Amsterdam, y juntos llenamos la casa de plantas.',
         'about-proposal': 'La Propuesta',
         'about-proposal-date': '20 Abril, 2025',
         'about-how-proposed': 'En Playa del Carmen, junto al mar de noche, bajo miles de estrellas, frente a las luces de Cozumel, y ninguna otro ser mas que Dios universo atestiguandolo. ',
@@ -317,7 +326,7 @@ const translations = {
         'hero-names': 'Alejandra & Juan',
         'hero-subtitle': 'We\'re Getting Married!',
         'hero-date': 'December 19, 2026',
-        'hero-location': 'Tepoztlan, Morelos, Mexico',
+        'hero-location': 'Tepoztlán, Morelos, Mexico',
         
         // Countdown
         'countdown-days': 'Days',
@@ -580,6 +589,7 @@ const translations = {
         'footer-contact': 'Contact Us',
         'footer-location': 'Location',
         'footer-location-details': 'Tepoztlan, Morelos, Mexico',
+        'footer-email': 'boda.ale.y.juan.2026@gmail.com',
         'footer-date': 'December 19, 2026',
         'footer-phone': '+31 683 043 127',
         'footer-copyright': '© 2026 Alejandra & Juan. All rights reserved.'

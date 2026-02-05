@@ -6,5 +6,8 @@
     "test": "echo \"No tests specified\" && exit 0"
   },
   "author": "Juan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
 }
