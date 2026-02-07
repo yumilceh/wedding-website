@@ -308,6 +308,7 @@ const translations = {
         'footer-location': 'Ubicación',
         'footer-location-details': 'Tepoztlán, Morelos, México',
         'footer-date': '19 de Diciembre de 2026',
+        'footer-map-link': 'Ver en Google Maps', // Add this line
         'footer-phone': '+31 683 043 127',
         'footer-email': 'boda.ale.y.juan.2026@gmail.com',
         'footer-copyright': '© 2026 Alejandra & Juan. Todos los derechos reservados.'
@@ -360,18 +361,28 @@ const translations = {
         // About page
         'about-title': 'Our Story',
         'about-how-met': 'How We Met',
-        'about-story-1': 'Share your love story here. Tell your guests how you met, the special moments that led to this day, and what makes your relationship unique.',
-        'about-story-2': 'Include details about the proposal, memorable dates, and why you\'re excited to celebrate with your loved ones.',
+        'about-story-1': 'If you let us sit together for a moment, we’d convince ourselves we met eons ago; Alejandra is confident reincarnation exists while Juan shares a quasi-scientific theory that, in his heart, is the only one that makes sense. He sits down and looks at her, moved by love; she looks back and knows she is loved.',
+        'about-story-2': 'We met in 2004 during high school, although Juan probably saw Alejandra in the campus courtyard some afternoons of 2003 before he truly knew her; he still remembers her in that blue uniform. We were friends, we flirted, we wrote to each other, we tried things, we kissed, we said goodbye, we annoyed each other, and we reunited. After thirteen years of knowing one another, we finally understood this would last forever.',
         'about-journey': 'Our Journey Together',
-        'about-story-3': 'Add more details about your relationship milestones, adventures you\'ve shared, and the moments that made you realize you wanted to spend forever together.',
+        'about-story-3': 'We don’t want to bore you with the ups and downs of three years of a long-distance relationship—of the trips, endless messages, audios, calls, sadness, and nostalgia, of the desire to finally be together.',
+        'about-story-4': 'Life needs a home, and the home of our life is the love embodied in our marriage. We’ve laid the foundation, and now we’re putting up walls and windows; we’ll discover together what else comes, secure in the knowledge that no matter how life’s highs and lows swing, our home will always be a loving refuge where we can build and rebuild ourselves.',
+        'about-story-5': 'We could say so much more about our story, but it is also being written by everyone who has touched it—you, our family and friends, are part of it.',
         'about-important-dates': 'Our Important Dates',
         'about-when-met': 'When We Met',
-        'about-location-context': '[Location or context]',
+        'about-when-met-date': 'August, 2004',
+        'about-location-context': 'In high school with the garden-class friends; Juan swears he noticed Alejandra long before.',
         'about-first-date': 'First Date',
-        'about-where-did': '[Where or what you did]',
+        'about-first-date-date': 'December 21, 2017',
+        'about-where-did': 'Coyoacán, Mexico City. We had dinner, drank mezcal, and then went to a party with Ana Clark. The rest is history.',
+        'about-moving-together': 'Moving In Together',
+        'about-moving-together-date': 'July 22, 2021',
+        'about-moving-together-context': 'Alejandra moved to Amsterdam, and together we filled our home with plants and life.',
         'about-proposal': 'The Proposal',
-        'about-how-proposed': '[How and where Juan proposed]',
+        'about-proposal-date': 'April 20, 2025',
+        'about-how-proposed': 'In Playa del Carmen beside the sea at night, under thousands of stars, in front of the lights of Cozumel, with no one else there but God and the universe witnessing it.',
         'about-wedding-day': 'Our Wedding Day',
+        'hero-date-card': 'December 19, 2026',
+        'hero-location': 'Tepoztlán, Morelos, Mexico',
 
         // Events
         'events-welcome-dinner': 'Welcome Dinner',
@@ -591,6 +602,7 @@ const translations = {
         'footer-location-details': 'Tepoztlan, Morelos, Mexico',
         'footer-email': 'boda.ale.y.juan.2026@gmail.com',
         'footer-date': 'December 19, 2026',
+        'footer-map-link': 'View on Google Maps', // Add this line
         'footer-phone': '+31 683 043 127',
         'footer-copyright': '© 2026 Alejandra & Juan. All rights reserved.'
     }
