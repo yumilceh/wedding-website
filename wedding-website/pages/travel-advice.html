@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" data-i18n-content="travel-advice-meta-description">
+    <title data-i18n="travel-advice-meta-title"></title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo" data-i18n="hero-names"></div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link" data-i18n="nav-home"></a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav-about"></a></li>
+                <li><a href="../index.html#why-tepoztlan" class="nav-link" data-i18n="nav-why"></a></li>
+                <li><a href="travel-advice.html" class="nav-link" data-i18n="nav-travel-advice"></a></li>
+            </ul>
+            <div class="language-selector">
+                <button id="lang-es" class="lang-btn active" title="Espanol">
+                    <span class="flag">MX</span>
+                </button>
+                <button id="lang-en" class="lang-btn" title="English">
+                    <span class="flag">EN</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="travel-advice" style="padding-top: 120px;">
+        <div class="container">
+            <h2 data-i18n="travel-advice-title"></h2>
+            <p class="section-intro" data-i18n="travel-advice-intro"></p>
+
+            <div class="travel-info">
+                <h3 data-i18n="travel-advice-getting-there-title"></h3>
+                <div class="travel-grid">
+                    <div class="travel-card">
+                        <h4><i class="fas fa-plane"></i> <span data-i18n="travel-advice-flights-title"></span></h4>
+                        <p data-i18n="travel-advice-flights-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-route"></i> <span data-i18n="travel-advice-airport-transfer-title"></span></h4>
+                        <p data-i18n="travel-advice-airport-transfer-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-bus"></i> <span data-i18n="travel-advice-bus-title"></span></h4>
+                        <p data-i18n="travel-advice-bus-body"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="travel-info" style="margin-top: 2rem;">
+                <h3 data-i18n="travel-advice-in-town-title"></h3>
+                <div class="travel-grid">
+                    <div class="travel-card">
+                        <h4><i class="fas fa-cloud-sun"></i> <span data-i18n="travel-advice-weather-title"></span></h4>
+                        <p data-i18n="travel-advice-weather-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-suitcase-rolling"></i> <span data-i18n="travel-advice-pack-title"></span></h4>
+                        <p data-i18n="travel-advice-pack-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-money-bill-wave"></i> <span data-i18n="travel-advice-money-title"></span></h4>
+                        <p data-i18n="travel-advice-money-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-signal"></i> <span data-i18n="travel-advice-connectivity-title"></span></h4>
+                        <p data-i18n="travel-advice-connectivity-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-shield-alt"></i> <span data-i18n="travel-advice-safety-title"></span></h4>
+                        <p data-i18n="travel-advice-safety-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-map-location-dot"></i> <span data-i18n="travel-advice-maps-title"></span></h4>
+                        <p>
+                            <a href="https://maps.app.goo.gl/RejbrenzrJ5EUnNd8" target="_blank" data-i18n="travel-advice-maps-link"></a>
+                        </p>
+                        <p data-i18n="travel-advice-maps-body"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="footer-contact"></h3>
+                    <p><i class="fas fa-envelope"></i> <span data-i18n="footer-email"></span></p>
+                    <p><i class="fas fa-phone"></i> <span data-i18n="footer-phone"></span></p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer-location"></h3>
+                    <p><i class="fa-solid fa-calendar"></i> <span data-i18n="hero-date-card"></span></p>
+                    <p><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/RejbrenzrJ5EUnNd8" target="_blank" data-i18n="hero-location"></a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer-copyright"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js" defer></script>
+    <script src="../language.js" defer></script>
+</body>
+</html>
