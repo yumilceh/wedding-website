@@ -90,6 +90,7 @@ body {
     letter-spacing: 0.5px;
     transition: var(--transition);
     position: relative;
+    white-space: nowrap;
 }
 
 .nav-link:hover {

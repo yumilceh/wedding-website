@@ -7,6 +7,7 @@ const translations = {
         'nav-home': 'Inicio',
         'nav-about': 'Más Sobre Nosotros',
         'nav-why': 'Por Qué Tepoztlán',
+        'nav-travel-advice': 'Consejos de viaje',
 
         // Meta
         'page-title': 'Alejandra & Juan - Nuestra Boda',
@@ -236,6 +237,33 @@ const translations = {
         'park-entry-fee': 'Costo de Entrada: [Gratis/Pagado]',
         'footer-follow-us': 'Síguenos',
 
+        // Travel Advice
+        'travel-advice-meta-title': 'Consejos de viaje - Alejandra & Juan',
+        'travel-advice-meta-description': 'Consejos de viaje para llegar a Tepoztlán y moverte durante la boda.',
+        'travel-advice-title': 'Consejos de viaje',
+        'travel-advice-intro': 'Aquí reunimos recomendaciones prácticas para llegar a Tepoztlán, moverte y prepararte para el fin de semana.',
+        'travel-advice-getting-there-title': 'Cómo llegar',
+        'travel-advice-flights-title': 'Vuelos a Ciudad de México',
+        'travel-advice-flights-body': 'La opción más sencilla es volar a Ciudad de México (MEX). Si te conviene, también puedes revisar el AIFA (NLU).',
+        'travel-advice-airport-transfer-title': 'Del aeropuerto a Tepoztlán',
+        'travel-advice-airport-transfer-body': 'Recomendamos reservar transporte privado o taxi de confianza. Tepoztlán está a unas 1.5–2.5 horas (según tráfico).',
+        'travel-advice-bus-title': 'Autobús y combinaciones',
+        'travel-advice-bus-body': 'También puedes ir en autobús hacia Cuernavaca y después conectar a Tepoztlán. Planea tiempo extra en fines de semana.',
+        'travel-advice-in-town-title': 'En Tepoztlán',
+        'travel-advice-weather-title': 'Clima en diciembre',
+        'travel-advice-weather-body': 'Suele haber días templados y noches frescas. Trae una chamarra ligera o suéter para la tarde/noche.',
+        'travel-advice-pack-title': 'Qué llevar',
+        'travel-advice-pack-body': 'Zapatos cómodos para calles empedradas, protector solar, repelente, y una capa ligera para cambios de temperatura.',
+        'travel-advice-money-title': 'Dinero y pagos',
+        'travel-advice-money-body': 'Lleva algo de efectivo (MXN) para mercados, taxis y propinas. Muchos lugares aceptan tarjeta, pero no todos.',
+        'travel-advice-connectivity-title': 'Internet y celular',
+        'travel-advice-connectivity-body': 'La señal puede variar por zona. Un eSIM o SIM local puede ayudar si tu plan no incluye México.',
+        'travel-advice-safety-title': 'Seguridad y salud',
+        'travel-advice-safety-body': 'Como en cualquier destino turístico: cuida tus pertenencias, usa transporte confiable y mantente hidratado.',
+        'travel-advice-maps-title': 'Ubicación',
+        'travel-advice-maps-link': 'Abrir mapa del centro de Tepoztlán',
+        'travel-advice-maps-body': 'Guarda este enlace para ubicarte rápido y compartir tu ubicación con tu transporte.',
+
         // RSVP
         'rsvp-title': 'Confirmar Asistencia',
         'rsvp-intro': '¡Por favor, haznos saber si puedes celebrar con nosotros!',
@@ -318,6 +346,7 @@ const translations = {
         'nav-home': 'Home',
         'nav-about': 'About Us',
         'nav-why': 'Why Tepoztlan',
+        'nav-travel-advice': 'Travel Advice',
 
         // Meta
         'page-title': 'Alejandra & Juan - Our Wedding',
@@ -528,6 +557,33 @@ const translations = {
         'park-best-for': 'Best For: [What to do there]',
         'park-entry-fee': 'Entry Fee: [Free/Paid]',
         'footer-follow-us': 'Follow Us',
+
+        // Travel Advice
+        'travel-advice-meta-title': 'Travel Advice - Alejandra & Juan',
+        'travel-advice-meta-description': 'Travel advice to get to Tepoztlán and get around during the wedding weekend.',
+        'travel-advice-title': 'Travel Advice',
+        'travel-advice-intro': 'Here are practical tips to get to Tepoztlán, move around, and prepare for the weekend.',
+        'travel-advice-getting-there-title': 'Getting there',
+        'travel-advice-flights-title': 'Flights to Mexico City',
+        'travel-advice-flights-body': 'The easiest option is flying into Mexico City (MEX). If it works better for you, you can also check AIFA (NLU).',
+        'travel-advice-airport-transfer-title': 'From the airport to Tepoztlán',
+        'travel-advice-airport-transfer-body': 'We recommend booking private transportation or a trusted taxi. Tepoztlán is about 1.5–2.5 hours away (traffic dependent).',
+        'travel-advice-bus-title': 'Bus connections',
+        'travel-advice-bus-body': 'You can also take a bus to Cuernavaca and then connect to Tepoztlán. Plan extra time on weekends.',
+        'travel-advice-in-town-title': 'In Tepoztlán',
+        'travel-advice-weather-title': 'Weather in December',
+        'travel-advice-weather-body': 'Expect mild days and cooler evenings. Bring a light jacket or sweater for late afternoon/night.',
+        'travel-advice-pack-title': 'What to pack',
+        'travel-advice-pack-body': 'Comfortable shoes for cobblestone streets, sunscreen, insect repellent, and a light layer for temperature changes.',
+        'travel-advice-money-title': 'Money and payments',
+        'travel-advice-money-body': 'Bring some cash (MXN) for markets, taxis, and tips. Many places take cards, but not all.',
+        'travel-advice-connectivity-title': 'Phone and internet',
+        'travel-advice-connectivity-body': 'Signal can vary by area. An eSIM or local SIM can help if your plan does not include Mexico.',
+        'travel-advice-safety-title': 'Safety and health',
+        'travel-advice-safety-body': 'As with any tourist destination: keep an eye on belongings, use trusted transportation, and stay hydrated.',
+        'travel-advice-maps-title': 'Location',
+        'travel-advice-maps-link': 'Open map of central Tepoztlán',
+        'travel-advice-maps-body': 'Save this link to quickly orient yourself and share your location with your driver.',
 
         // RSVP
         'rsvp-title': 'RSVP',
