@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wedding Form - Boda de Alejandra & Juan">
+    <title>Wedding Form - Boda de Alejandra & Juan</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-/jR5WcLvt6scGNsVMP/YxrgqrzhBMtsL8/VYxZqSuRjc0RPZ93v2bAfI2xc+/rKHfVYvMY6iNLstqEujG+DCzA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 200px);
+            padding: 2rem;
+        }
+        
+        .form-wrapper {
+            width: 100%;
+            max-width: 700px;
+        }
+        
+        @media (max-width: 768px) {
+            .form-container {
+                padding: 1rem;
+            }
+            
+            iframe {
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Minimal Navigation Bar -->
+    <nav class="navbar" style="background-color: rgba(0, 0, 0, 0.5);">
+        <div class="nav-container">
+            <div class="logo" data-i18n="hero-names">Alejandra & Juan</div>
+            <div class="language-selector">
+                <button id="lang-es" class="lang-btn active" title="Espanol">
+                    <span class="flag">MX</span>
+                </button>
+                <button id="lang-en" class="lang-btn" title="English">
+                    <span class="flag">EN</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form Section -->
+    <section class="form-container">
+        <div class="form-wrapper">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgzE4OkSoLyzG2z0WMi6p54aByJVhgH7QwGaimsy2pWLLo-g/viewform?embedded=true" width="640" height="2026" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="footer-contact">Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> boda.ale.y.juan.2026@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +31 683 043 127 </p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer-follow-us">Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer-location">Location</h3>
+                    <p data-i18n="footer-location-details">Tepoztlán, Morelos, México</p>
+                    <p data-i18n="footer-date">December 19, 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../language.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
