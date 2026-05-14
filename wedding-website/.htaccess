@@ -4,4 +4,30 @@ Header always unset Strict-Transport-Security
 # Remove other security headers that might cause issues
 Header always unset Expect-CT
 
-ExpiresActive On ExpiresDefault "modification"
+# Enable Gzip compression for faster transfers
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# Set cache headers for different file types
+ExpiresActive On
+
+# HTML files - short cache (1 hour) to ensure users see updates quickly
+<FilesMatch "\.html?$">
+  Header set Cache-Control "max-age=3600, must-revalidate"
+  ExpiresDefault "now plus 1 hour"
+</FilesMatch>
+
+# Static assets (CSS, JS, images, fonts) - long cache (30 days)
+# These should have versioning in filenames for cache busting
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|css|js|woff|woff2|ttf|eot|svg|ico)$">
+  Header set Cache-Control "max-age=2592000, public, immutable"
+  ExpiresDefault "now plus 30 days"
+</FilesMatch>
+
+# JSON and data files - short cache
+<FilesMatch "\.json$">
+  Header set Cache-Control "max-age=3600, must-revalidate"
+  ExpiresDefault "now plus 1 hour"
+</FilesMatch>
