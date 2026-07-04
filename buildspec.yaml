@@ -12,6 +12,10 @@ phases:
     commands:
       # Run the build script defined in wedding-website/package.json
       - npm run build
+  post_build:
+    commands:
+      # Invalidate CloudFront cache so browsers see the new deployment immediately
+      - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
 artifacts:
   files:
     # All files from the generated dist directory
