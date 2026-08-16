@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -115,6 +117,15 @@
                         <p data-i18n="travel-advice-cdmx-free-day-body"></p>
                     </div>
                     <div class="travel-card">
+                        <h4><i class="fas fa-palette"></i> <span data-i18n="travel-advice-frida-title"></span></h4>
+                        <p data-i18n="travel-advice-frida-body"></p>
+                        <div class="travel-tip">
+                            <i class="fas fa-triangle-exclamation"></i>
+                            <p data-i18n="travel-advice-frida-tip"></p>
+                        </div>
+                        <a class="buy-tickets-link" href="https://boletos.museofridakahlo.org.mx/en" target="_blank" rel="noopener noreferrer" data-i18n="travel-advice-frida-link"></a>
+                    </div>
+                    <div class="travel-card">
                         <h4><i class="fas fa-car"></i> <span data-i18n="travel-advice-cdmx-around-title"></span></h4>
                         <p data-i18n="travel-advice-cdmx-around-body"></p>
                     </div>
@@ -150,6 +161,32 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Section 5: Explore More of Mexico -->
+            <div class="travel-info" style="margin-top: 2rem;">
+                <h3 data-i18n="travel-advice-explore-title"></h3>
+                <p class="section-intro" style="margin-bottom: 2rem;" data-i18n="travel-advice-explore-intro"></p>
+                <div id="mexico-map" class="mexico-map"></div>
+                <p class="map-hint" data-i18n="travel-advice-explore-map-hint"></p>
+                <div class="travel-grid" style="margin-top: 2rem;">
+                    <div class="travel-card">
+                        <h4><i class="fas fa-umbrella-beach"></i> <span data-i18n="travel-advice-explore-yucatan-title"></span></h4>
+                        <p data-i18n="travel-advice-explore-yucatan-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-water"></i> <span data-i18n="travel-advice-explore-chiapas-title"></span></h4>
+                        <p data-i18n="travel-advice-explore-chiapas-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-utensils"></i> <span data-i18n="travel-advice-explore-oaxaca-title"></span></h4>
+                        <p data-i18n="travel-advice-explore-oaxaca-body"></p>
+                    </div>
+                    <div class="travel-card">
+                        <h4><i class="fas fa-landmark"></i> <span data-i18n="travel-advice-explore-centro-title"></span></h4>
+                        <p data-i18n="travel-advice-explore-centro-body"></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -176,5 +213,8 @@
 
     <script src="../script.js" defer></script>
     <script src="../language.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+    <script src="../scripts/mexico-map.js" defer></script>
 </body>
 </html>
