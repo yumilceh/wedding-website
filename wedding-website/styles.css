@@ -809,6 +809,21 @@ section h2::after {
     text-decoration: underline;
 }
 
+/* ===========================
+   Wedding Day Section
+   =========================== */
+.dress-code-frame {
+    max-width: 640px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.dress-code-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .mexico-map {
     width: 100%;
     height: 480px;

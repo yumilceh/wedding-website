@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" data-i18n-content="wedding-day-meta-description">
+    <title data-i18n="wedding-day-meta-title"></title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo" data-i18n="hero-names"></div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link" data-i18n="nav-home"></a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav-about"></a></li>
+                <li><a href="../index.html#why-tepoztlan" class="nav-link" data-i18n="nav-why"></a></li>
+                <li><a href="wedding-day.html" class="nav-link" data-i18n="nav-wedding-day"></a></li>
+                <li><a href="travel-advice.html" class="nav-link" data-i18n="nav-travel-advice"></a></li>
+            </ul>
+            <div class="language-selector">
+                <button id="lang-es" class="lang-btn active" title="Espanol">
+                    <span class="flag">MX</span>
+                </button>
+                <button id="lang-en" class="lang-btn" title="English">
+                    <span class="flag">EN</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="wedding-day" style="padding-top: 120px;">
+        <div class="container">
+            <h2 data-i18n="wedding-day-title"></h2>
+            <p class="section-intro" data-i18n="wedding-day-intro"></p>
+
+            <!-- Dress Code -->
+            <div class="travel-info">
+                <h3 data-i18n="wedding-day-dress-code-title"></h3>
+                <p class="section-intro" style="margin-bottom: 2rem;" data-i18n="wedding-day-dress-code-intro"></p>
+                <div class="dress-code-frame">
+                    <img
+                        data-i18n-src-en="../pictures/optimized-pictures/dress-code/dress-code-en.jpg"
+                        data-i18n-src-es="../pictures/optimized-pictures/dress-code/dress-code-es.jpg"
+                        src="../pictures/optimized-pictures/dress-code/dress-code-es.jpg"
+                        data-i18n-alt="alt-dress-code"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="footer-contact"></h3>
+                    <p><i class="fas fa-envelope"></i> <span data-i18n="footer-email"></span></p>
+                    <p><i class="fas fa-phone"></i> <span data-i18n="footer-phone"></span></p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer-location"></h3>
+                    <p><i class="fa-solid fa-calendar"></i> <span data-i18n="hero-date-card"></span></p>
+                    <p><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/RejbrenzrJ5EUnNd8" target="_blank" data-i18n="hero-location"></a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer-copyright"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js" defer></script>
+    <script src="../language.js" defer></script>
+</body>
+</html>

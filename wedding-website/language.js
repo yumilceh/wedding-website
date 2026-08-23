@@ -7,6 +7,7 @@ const translations = {
         'nav-home': 'Inicio',
         'nav-about': 'Más Sobre Nosotros',
         'nav-why': 'Por Qué Tepoztlán',
+        'nav-wedding-day': 'La Boda',
         'nav-travel-advice': 'Consejos de viaje',
 
         // Meta
@@ -237,6 +238,15 @@ const translations = {
         'park-entry-fee': 'Costo de Entrada: [Gratis/Pagado]',
         'footer-follow-us': 'Síguenos',
 
+        // Wedding Day
+        'wedding-day-meta-title': 'La Boda - Alejandra y Juan',
+        'wedding-day-meta-description': 'Todo lo que necesitas saber sobre el día de la boda de Alejandra y Juan, incluyendo el código de vestimenta.',
+        'wedding-day-title': 'La Boda',
+        'wedding-day-intro': 'Todos los detalles sobre nuestro gran día, para que llegues preparado y disfrutes al máximo.',
+        'wedding-day-dress-code-title': 'Código de Vestimenta',
+        'wedding-day-dress-code-intro': 'Formal de Jardín. Aquí tienes una guía rápida para saber qué ponerte.',
+        'alt-dress-code': 'Código de vestimenta para la boda de Alejandra y Juan: formal de jardín',
+
         // Travel Advice
         'travel-advice-meta-title': 'Guía de viaje para invitados - Alejandra y Juan',
         'travel-advice-meta-description': 'Guía para invitados que viajan a México para la boda en Tepoztlán y otros consejos.',
@@ -386,6 +396,7 @@ const translations = {
         'nav-home': 'Home',
         'nav-about': 'About Us',
         'nav-why': 'Why Tepoztlan',
+        'nav-wedding-day': 'The Wedding Day',
         'nav-travel-advice': 'Travel Advice',
 
         // Meta
@@ -598,6 +609,15 @@ const translations = {
         'park-entry-fee': 'Entry Fee: [Free/Paid]',
         'footer-follow-us': 'Follow Us',
 
+        // Wedding Day
+        'wedding-day-meta-title': 'The Wedding Day - Alejandra and Juan',
+        'wedding-day-meta-description': 'Everything you need to know about Alejandra and Juan\'s wedding day, including the dress code.',
+        'wedding-day-title': 'The Wedding Day',
+        'wedding-day-intro': 'All the details about our big day, so you can arrive prepared and enjoy it to the fullest.',
+        'wedding-day-dress-code-title': 'Dress Code',
+        'wedding-day-dress-code-intro': 'Garden Formal. Here\'s a quick guide on what to wear.',
+        'alt-dress-code': 'Dress code for Alejandra and Juan\'s wedding: garden formal',
+
         // Travel Advice
         'travel-advice-meta-title': 'Travel Guide for Guests - Alejandra and Juan',
         'travel-advice-meta-description': 'Guide for guests traveling to Mexico for our wedding in Tepoztlan.',
@@ -785,7 +805,15 @@ function updatePageLanguage() {
             element.setAttribute('alt', translations[currentLanguage][key]);
         }
     });
-    
+
+    // Update all elements with data-i18n-src-es / data-i18n-src-en attributes
+    document.querySelectorAll('[data-i18n-src-es][data-i18n-src-en]').forEach(element => {
+        const src = element.getAttribute(`data-i18n-src-${currentLanguage}`);
+        if (src) {
+            element.setAttribute('src', src);
+        }
+    });
+
     // Update page language attribute
     document.documentElement.lang = currentLanguage;
 }
