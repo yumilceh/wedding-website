@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" data-i18n-content="gifts-meta-description">
+    <title data-i18n="gifts-meta-title"></title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo" data-i18n="hero-names"></div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link" data-i18n="nav-home"></a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav-about"></a></li>
+                <li><a href="../index.html#why-tepoztlan" class="nav-link" data-i18n="nav-why"></a></li>
+                <li><a href="wedding-day.html" class="nav-link" data-i18n="nav-wedding-day"></a></li>
+                <li><a href="travel-advice.html" class="nav-link" data-i18n="nav-travel-advice"></a></li>
+                <li><a href="gift-list.html" class="nav-link" data-i18n="nav-gifts"></a></li>
+            </ul>
+            <div class="language-selector">
+                <button id="lang-es" class="lang-btn active" title="Espanol">
+                    <span class="flag">MX</span>
+                </button>
+                <button id="lang-en" class="lang-btn" title="English">
+                    <span class="flag">EN</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="gift-list" style="padding-top: 120px;">
+        <!-- Papel picado banner -->
+        <svg class="papel-picado" aria-hidden="true" focusable="false">
+            <defs>
+                <path id="picado-flag" d="M5 6 H55 V48 l-5 6 l-5 -6 l-5 6 l-5 -6 l-5 6 l-5 -6 l-5 6 l-5 -6 l-5 6 l-5 -6 Z"/>
+                <g id="picado-holes" fill="#ffffff">
+                    <circle cx="30" cy="27" r="6"/>
+                    <path d="M30 14 l3 4 -3 4 -3 -4z"/>
+                    <path d="M30 32 l3 4 -3 4 -3 -4z"/>
+                    <path d="M17 27 l4 -3 4 3 -4 3z"/>
+                    <path d="M35 27 l4 -3 4 3 -4 3z"/>
+                    <circle cx="13" cy="14" r="2"/>
+                    <circle cx="47" cy="14" r="2"/>
+                    <circle cx="13" cy="40" r="2"/>
+                    <circle cx="47" cy="40" r="2"/>
+                </g>
+                <pattern id="picado" width="360" height="64" patternUnits="userSpaceOnUse">
+                    <line x1="0" y1="6" x2="360" y2="6" stroke="#2b2b2b" stroke-width="2"/>
+                    <use href="#picado-flag" x="0" fill="#E4007C"/>
+                    <use href="#picado-flag" x="60" fill="#FFC72C"/>
+                    <use href="#picado-flag" x="120" fill="#00A6A6"/>
+                    <use href="#picado-flag" x="180" fill="#F7931E"/>
+                    <use href="#picado-flag" x="240" fill="#7B3FA0"/>
+                    <use href="#picado-flag" x="300" fill="#2E8B57"/>
+                    <use href="#picado-holes" x="0"/>
+                    <use href="#picado-holes" x="60"/>
+                    <use href="#picado-holes" x="120"/>
+                    <use href="#picado-holes" x="180"/>
+                    <use href="#picado-holes" x="240"/>
+                    <use href="#picado-holes" x="300"/>
+                </pattern>
+            </defs>
+            <rect width="100%" height="64" fill="url(#picado)"/>
+        </svg>
+
+        <div class="container">
+            <h2 data-i18n="gifts-title"></h2>
+            <p class="section-intro" data-i18n="gifts-intro"></p>
+
+            <div class="gift-grid">
+                <!-- Bed -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <span class="gift-badge" data-i18n="gifts-urgent"></span>
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <circle cx="100" cy="85" r="66" fill="#FFE8C2"/>
+                            <path d="M144 32 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z" fill="#FFC72C"/>
+                            <path d="M126 22 l1.5 3.5 3.5 1.5 -3.5 1.5 -1.5 3.5 -1.5 -3.5 -3.5 -1.5 3.5 -1.5z" fill="#FFC72C"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <path d="M166 18 a18 18 0 1 0 16 28 a14 14 0 1 1 -16 -28 z" fill="#FFC72C"/>
+                                <rect x="34" y="122" width="8" height="14" fill="#7a3e16"/>
+                                <rect x="158" y="122" width="8" height="14" fill="#7a3e16"/>
+                                <rect x="28" y="52" width="22" height="80" rx="6" fill="#9c5221"/>
+                                <rect x="40" y="100" width="128" height="24" rx="3" fill="#c46a2b"/>
+                                <rect x="160" y="82" width="14" height="52" rx="4" fill="#9c5221"/>
+                                <ellipse cx="66" cy="90" rx="16" ry="9" fill="#ffffff"/>
+                            </g>
+                            <g>
+                                <rect x="78" y="84" width="12" height="30" fill="#E4007C"/>
+                                <rect x="90" y="84" width="12" height="30" fill="#FFC72C"/>
+                                <rect x="102" y="84" width="12" height="30" fill="#00A6A6"/>
+                                <rect x="114" y="84" width="12" height="30" fill="#F7931E"/>
+                                <rect x="126" y="84" width="12" height="30" fill="#2E8B57"/>
+                                <rect x="138" y="84" width="12" height="30" fill="#E4007C"/>
+                                <rect x="150" y="84" width="12" height="30" fill="#FFC72C"/>
+                            </g>
+                            <rect x="78" y="84" width="84" height="30" rx="3" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+                            <path d="M78 114 v6 M86 114 v6 M94 114 v6 M102 114 v6 M110 114 v6 M118 114 v6 M126 114 v6 M134 114 v6 M142 114 v6 M150 114 v6 M158 114 v6" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+                            <text x="82" y="62" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#2b2b2b">z</text>
+                            <text x="94" y="50" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#2b2b2b">z</text>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-bed-title"></h3>
+                        <p data-i18n="gifts-bed-body"></p>
+                    </div>
+                </article>
+
+                <!-- Coffee machine -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <circle cx="100" cy="85" r="66" fill="#D7F2EF"/>
+                            <path d="M42 70 q-6 -8 0 -16 q6 -8 0 -16" fill="none" stroke="#9aa" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M30 76 q-6 -8 0 -16 q6 -8 0 -16" fill="none" stroke="#9aa" stroke-width="3" stroke-linecap="round"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <rect x="55" y="28" width="80" height="106" rx="8" fill="#E4007C"/>
+                                <rect x="55" y="28" width="80" height="22" rx="6" fill="#b8006a"/>
+                                <circle cx="72" cy="39" r="4" fill="#FFC72C"/>
+                                <circle cx="86" cy="39" r="4" fill="#ffffff"/>
+                                <rect x="67" y="58" width="56" height="10" rx="2" fill="#555555"/>
+                                <rect x="90" y="68" width="10" height="8" fill="#777777"/>
+                                <rect x="62" y="120" width="66" height="8" rx="2" fill="#777777"/>
+                                <path d="M80 92 h30 l-3 26 h-24 z" fill="#c4622d"/>
+                                <path d="M110 97 q11 1 8 11 q-2 5 -9 4" fill="none"/>
+                                <path d="M24 96 q0 22 20 22 q20 0 20 -22 z" fill="#c4622d"/>
+                                <!-- the imagined concha, in a thought bubble -->
+                                <circle cx="142" cy="84" r="3" fill="#ffffff"/>
+                                <circle cx="149" cy="72" r="4.5" fill="#ffffff"/>
+                                <path d="M146 58 q-10 -12 4 -18 q4 -14 20 -8 q14 -8 22 6 q10 10 -2 20 q-4 12 -20 8 q-16 6 -24 -8z" fill="#ffffff"/>
+                                <path d="M152 54 a16 11 0 0 1 32 0 z" fill="#F7C9A0"/>
+                                <path d="M155 49 a13 9 0 0 1 26 0 q-13 3 -26 0 z" fill="#F4A6C6"/>
+                            </g>
+                            <path d="M95 76 v14" stroke="#6b3a1d" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="88" cy="104" r="2" fill="#fff"/>
+                            <circle cx="95" cy="108" r="2" fill="#fff"/>
+                            <circle cx="102" cy="104" r="2" fill="#fff"/>
+                            <path d="M160 47 l16 -5 M162 42 l14 5" stroke="#d27a9e" stroke-width="2" stroke-linecap="round"/>
+                            <ellipse cx="44" cy="96" rx="18" ry="3" fill="#6b3a1d"/>
+                            <path d="M34 106 h20 M30 112 h28" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-coffee-title"></h3>
+                        <p data-i18n="gifts-coffee-body"></p>
+                    </div>
+                </article>
+
+                <!-- Kitchen and house items -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <circle cx="100" cy="85" r="66" fill="#FCE1EC"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <circle cx="66" cy="56" r="32" fill="#ffffff"/>
+                                <path d="M100 52 l14 -30" fill="none"/>
+                                <ellipse cx="116" cy="18" rx="7" ry="10" fill="#d9a066" transform="rotate(25 116 18)"/>
+                                <path d="M22 112 q0 30 42 30 q42 0 42 -30 z" fill="#c4622d"/>
+                                <ellipse cx="64" cy="112" rx="42" ry="7" fill="#a34f22"/>
+                                <path d="M22 116 q-8 0 -8 -6 M106 116 q8 0 8 -6" fill="none"/>
+                                <path d="M118 104 q32 46 64 0 z" fill="#6d6d6d"/>
+                                <ellipse cx="150" cy="104" rx="32" ry="6" fill="#D62828"/>
+                                <path d="M130 132 l-4 10 M170 132 l4 10 M150 136 v8" fill="none"/>
+                                <rect x="156" y="66" width="14" height="34" rx="7" fill="#7a7a7a" transform="rotate(30 163 83)"/>
+                            </g>
+                            <circle cx="66" cy="56" r="21" fill="none" stroke="#1f4fa3" stroke-width="3"/>
+                            <g fill="#1f4fa3">
+                                <circle cx="66" cy="47" r="5"/><circle cx="66" cy="65" r="5"/>
+                                <circle cx="57" cy="56" r="5"/><circle cx="75" cy="56" r="5"/>
+                                <circle cx="66" cy="28" r="2"/><circle cx="66" cy="84" r="2"/>
+                                <circle cx="38" cy="56" r="2"/><circle cx="94" cy="56" r="2"/>
+                                <circle cx="46" cy="36" r="2"/><circle cx="86" cy="36" r="2"/>
+                                <circle cx="46" cy="76" r="2"/><circle cx="86" cy="76" r="2"/>
+                            </g>
+                            <circle cx="66" cy="56" r="4" fill="#FFC72C"/>
+                            <path d="M38 126 h52 M44 133 h40" stroke="#FFC72C" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="140" cy="102" r="3" fill="#2E8B57"/>
+                            <circle cx="158" cy="105" r="3" fill="#2E8B57"/>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-kitchen-title"></h3>
+                        <p data-i18n="gifts-kitchen-body"></p>
+                    </div>
+                </article>
+
+                <!-- Investment for the future -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <circle cx="100" cy="85" r="66" fill="#E3F4D7"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <path d="M30 140 l-4 -20 h28 l-4 20 z" fill="#c4622d"/>
+                                <path d="M40 120 q-2 -24 4 -44" fill="none"/>
+                                <ellipse cx="32" cy="98" rx="10" ry="5" fill="#2E8B57" transform="rotate(-30 32 98)"/>
+                                <ellipse cx="52" cy="86" rx="10" ry="5" fill="#2E8B57" transform="rotate(25 52 86)"/>
+                                <ellipse cx="44" cy="72" rx="5" ry="9" fill="#2E8B57"/>
+                                <rect x="72" y="118" width="12" height="18" rx="3" fill="#F4A6C6"/>
+                                <rect x="112" y="118" width="12" height="18" rx="3" fill="#F4A6C6"/>
+                                <path d="M114 76 l6 -18 l12 14 z" fill="#F4A6C6"/>
+                                <ellipse cx="100" cy="102" rx="44" ry="32" fill="#F4A6C6"/>
+                                <ellipse cx="144" cy="100" rx="9" ry="11" fill="#ee8fb5"/>
+                                <path d="M56 98 q-12 -4 -8 -12 q4 -6 8 0" fill="none"/>
+                                <circle cx="112" cy="44" r="10" fill="#FFC72C"/>
+                                <ellipse cx="172" cy="136" rx="14" ry="5" fill="#FFC72C"/>
+                                <ellipse cx="172" cy="128" rx="14" ry="5" fill="#FFC72C"/>
+                                <ellipse cx="172" cy="120" rx="14" ry="5" fill="#FFC72C"/>
+                            </g>
+                            <rect x="90" y="72" width="22" height="5" rx="2" fill="#2b2b2b"/>
+                            <circle cx="128" cy="90" r="3.5" fill="#2b2b2b"/>
+                            <circle cx="141" cy="98" r="1.8" fill="#2b2b2b"/>
+                            <circle cx="147" cy="98" r="1.8" fill="#2b2b2b"/>
+                            <text x="107" y="49" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#2b2b2b">$</text>
+                            <g fill="#1f4fa3">
+                                <circle cx="88" cy="100" r="7" fill="none" stroke="#1f4fa3" stroke-width="2.5"/>
+                                <circle cx="88" cy="100" r="2.5"/>
+                                <circle cx="108" cy="116" r="5" fill="none" stroke="#1f4fa3" stroke-width="2.5"/>
+                                <circle cx="76" cy="118" r="2"/><circle cx="114" cy="94" r="2"/><circle cx="96" cy="86" r="2"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-investment-title"></h3>
+                        <p data-i18n="gifts-investment-body"></p>
+                    </div>
+                </article>
+
+                <!-- Washing machine and dryer -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <circle cx="100" cy="85" r="66" fill="#DDEBFF"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <circle cx="40" cy="30" r="5" fill="#ffffff"/>
+                                <circle cx="52" cy="20" r="3.5" fill="#ffffff"/>
+                                <circle cx="34" cy="16" r="3" fill="#ffffff"/>
+                                <rect x="28" y="40" width="68" height="96" rx="6" fill="#ffffff"/>
+                                <rect x="104" y="40" width="68" height="96" rx="6" fill="#ffffff"/>
+                                <path d="M28 58 h68 M104 58 h68" fill="none"/>
+                                <circle cx="84" cy="49" r="5" fill="#00A6A6"/>
+                                <circle cx="160" cy="49" r="5" fill="#E4007C"/>
+                                <circle cx="62" cy="97" r="26" fill="#9fd8e8"/>
+                                <circle cx="138" cy="97" r="26" fill="#e9e9e9"/>
+                                <path d="M126 88 l6 -4 h12 l6 4 l-3 6 h-3 v14 h-12 v-14 h-3 z" fill="#FFC72C"/>
+                                <path d="M146 104 v8 q0 5 6 5 h5 v-6 h-5 v-7 z" fill="#D62828"/>
+                            </g>
+                            <path d="M44 92 q18 -16 36 0" fill="none" stroke="#E4007C" stroke-width="5" stroke-linecap="round"/>
+                            <path d="M44 100 q18 -16 36 0" fill="none" stroke="#FFC72C" stroke-width="5" stroke-linecap="round"/>
+                            <path d="M44 108 q18 -16 36 0" fill="none" stroke="#2E8B57" stroke-width="5" stroke-linecap="round"/>
+                            <circle cx="38" cy="49" r="2.5" fill="#2E8B57"/>
+                            <circle cx="46" cy="49" r="2.5" fill="#FFC72C"/>
+                            <circle cx="114" cy="49" r="2.5" fill="#F7931E"/>
+                            <circle cx="122" cy="49" r="2.5" fill="#00A6A6"/>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-laundry-title"></h3>
+                        <p data-i18n="gifts-laundry-body"></p>
+                    </div>
+                </article>
+
+                <!-- A dog -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <circle cx="100" cy="85" r="66" fill="#FFE3D3"/>
+                            <path d="M150 40 c0 -5 7 -5 7 0 c0 -5 7 -5 7 0 c0 6 -7 9 -7 11 c0 -2 -7 -5 -7 -11z" fill="#E4007C"/>
+                            <path d="M36 52 c0 -4 5 -4 5 0 c0 -4 5 -4 5 0 c0 4 -5 7 -5 8 c0 -1 -5 -4 -5 -8z" fill="#F7931E"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <!-- mini dapple dachshund -->
+                                <path d="M42 100 q-16 -4 -18 -24" fill="none"/>
+                                <rect x="44" y="112" width="11" height="22" rx="4" fill="#6b3a1d"/>
+                                <rect x="60" y="112" width="11" height="22" rx="4" fill="#6b3a1d"/>
+                                <rect x="106" y="112" width="11" height="22" rx="4" fill="#6b3a1d"/>
+                                <rect x="121" y="112" width="11" height="22" rx="4" fill="#6b3a1d"/>
+                                <rect x="36" y="86" width="104" height="36" rx="18" fill="#6b3a1d"/>
+                                <ellipse cx="140" cy="76" rx="21" ry="18" fill="#6b3a1d"/>
+                                <ellipse cx="163" cy="85" rx="17" ry="9" fill="#6b3a1d"/>
+                                <ellipse cx="129" cy="86" rx="8" ry="16" fill="#4a2410" transform="rotate(18 129 86)"/>
+                            </g>
+                            <g fill="#c9a27a">
+                                <ellipse cx="58" cy="97" rx="7" ry="4"/>
+                                <ellipse cx="84" cy="108" rx="6" ry="3.5"/>
+                                <ellipse cx="104" cy="95" rx="8" ry="4.5"/>
+                                <ellipse cx="124" cy="110" rx="4" ry="3"/>
+                                <ellipse cx="148" cy="66" rx="5" ry="3"/>
+                                <ellipse cx="65" cy="124" rx="2.5" ry="4"/>
+                            </g>
+                            <g fill="#e8d3b5">
+                                <ellipse cx="74" cy="94" rx="3" ry="2"/>
+                                <ellipse cx="96" cy="114" rx="3.5" ry="2"/>
+                                <ellipse cx="160" cy="80" rx="3" ry="2"/>
+                            </g>
+                            <path d="M118 88 q6 14 22 12" fill="none" stroke="#D62828" stroke-width="5" stroke-linecap="round"/>
+                            <circle cx="128" cy="101" r="4" fill="#FFC72C" stroke="#2b2b2b" stroke-width="2"/>
+                            <ellipse cx="179" cy="82" rx="5" ry="4" fill="#2b2b2b"/>
+                            <path d="M160 92 q7 4 14 -1" fill="none" stroke="#2b2b2b" stroke-width="2.5" stroke-linecap="round"/>
+                            <circle cx="145" cy="71" r="4" fill="#2b2b2b"/>
+                            <circle cx="146.3" cy="69.7" r="1.3" fill="#fff"/>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-dog-title"></h3>
+                        <p data-i18n="gifts-dog-body"></p>
+                    </div>
+                </article>
+
+                <!-- Family -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <circle cx="100" cy="85" r="66" fill="#FFF1C9"/>
+                            <path d="M100 136 C36 96 50 34 100 60 C150 34 164 96 100 136 Z" fill="#FFB25B" opacity="0.7"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <path d="M80 92 l12 14 M120 92 l-12 14" fill="none"/>
+                                <path d="M60 124 v14 M76 124 v14 M96 120 v14 M104 120 v14" fill="none"/>
+                                <path d="M68 74 l-20 52 h40 z" fill="#E4007C"/>
+                                <circle cx="68" cy="60" r="13" fill="#c98a5c"/>
+                                <path d="M55 60 q0 -16 13 -16 q14 0 14 16 q-6 -8 -14 -8 q-8 0 -13 8z" fill="#2b2b2b"/>
+                                <rect x="119" y="74" width="26" height="34" rx="4" fill="#00A6A6"/>
+                                <rect x="121" y="108" width="9" height="28" fill="#2b2b2b"/>
+                                <rect x="134" y="108" width="9" height="28" fill="#2b2b2b"/>
+                                <circle cx="132" cy="60" r="13" fill="#b97a4f"/>
+                                <path d="M119 58 q2 -14 13 -14 q11 0 13 14 q-6 -6 -13 -6 q-7 0 -13 6z" fill="#2b2b2b"/>
+                                <rect x="91" y="101" width="18" height="20" rx="4" fill="#FFC72C"/>
+                                <circle cx="100" cy="92" r="9" fill="#d39a6a"/>
+                            </g>
+                            <g>
+                                <circle cx="56" cy="50" r="3.5" fill="#F7931E"/>
+                                <circle cx="52" cy="46" r="3.5" fill="#F7931E"/>
+                                <circle cx="58" cy="44" r="3.5" fill="#F7931E"/>
+                                <circle cx="55" cy="47" r="2" fill="#D62828"/>
+                            </g>
+                            <path d="M62 92 l12 0 M60 102 l16 0" stroke="#FFC72C" stroke-width="2.5" stroke-linecap="round"/>
+                            <circle cx="64" cy="60" r="1.6" fill="#2b2b2b"/><circle cx="72" cy="60" r="1.6" fill="#2b2b2b"/>
+                            <circle cx="128" cy="60" r="1.6" fill="#2b2b2b"/><circle cx="136" cy="60" r="1.6" fill="#2b2b2b"/>
+                            <circle cx="97" cy="91" r="1.3" fill="#2b2b2b"/><circle cx="103" cy="91" r="1.3" fill="#2b2b2b"/>
+                            <path d="M64 66 q4 3 8 0 M128 66 q4 3 8 0 M97 95 q3 2 6 0" fill="none" stroke="#2b2b2b" stroke-width="1.8" stroke-linecap="round"/>
+                            <path d="M40 30 c0 -5 7 -5 7 0 c0 -5 7 -5 7 0 c0 6 -7 9 -7 11 c0 -2 -7 -5 -7 -11z" fill="#E4007C"/>
+                            <path d="M150 26 c0 -4 5 -4 5 0 c0 -4 5 -4 5 0 c0 4 -5 7 -5 8 c0 -1 -5 -4 -5 -8z" fill="#D62828"/>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-family-title"></h3>
+                        <p data-i18n="gifts-family-body"></p>
+                    </div>
+                </article>
+
+                <!-- House improvements -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <circle cx="100" cy="85" r="66" fill="#E0F2E9"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <rect x="40" y="62" width="100" height="74" fill="#FFC72C"/>
+                                <rect x="116" y="62" width="24" height="74" fill="#E4007C"/>
+                                <path d="M30 66 l60 -38 l60 38 z" fill="#c4622d"/>
+                                <path d="M80 136 v-28 a11 11 0 0 1 22 0 v28 z" fill="#00A6A6"/>
+                                <rect x="52" y="80" width="18" height="18" fill="#9fd8e8"/>
+                                <rect x="50" y="98" width="22" height="6" fill="#9c5221"/>
+                                <rect x="112" y="80" width="18" height="18" fill="#9fd8e8"/>
+                                <rect x="110" y="98" width="22" height="6" fill="#9c5221"/>
+                                <rect x="148" y="46" width="30" height="14" rx="4" fill="#E4007C"/>
+                                <path d="M163 60 v8 h-14 v26" fill="none"/>
+                                <rect x="144" y="94" width="10" height="24" rx="3" fill="#2b2b2b"/>
+                                <path d="M20 136 h160" fill="none"/>
+                            </g>
+                            <path d="M61 80 v18 M52 89 h18 M121 80 v18 M112 89 h18" stroke="#2b2b2b" stroke-width="2"/>
+                            <g fill="#D63384">
+                                <circle cx="40" cy="70" r="5"/><circle cx="46" cy="64" r="4"/><circle cx="36" cy="80" r="4.5"/>
+                                <circle cx="44" cy="76" r="4"/><circle cx="38" cy="90" r="4"/><circle cx="52" cy="70" r="3.5"/>
+                            </g>
+                            <g fill="#F7931E">
+                                <circle cx="56" cy="99" r="2.5"/><circle cx="64" cy="98" r="2.5"/>
+                                <circle cx="116" cy="99" r="2.5"/><circle cx="125" cy="98" r="2.5"/>
+                            </g>
+                            <circle cx="98" cy="122" r="2" fill="#2b2b2b"/>
+                            <path d="M168 66 q2 6 0 10 q-2 -4 0 -10z" fill="#E4007C"/>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-home-title"></h3>
+                        <p data-i18n="gifts-home-body"></p>
+                    </div>
+                </article>
+
+                <!-- Honeymoon trip -->
+                <article class="gift-card">
+                    <div class="gift-art-wrap">
+                        <svg class="gift-art" viewBox="0 0 200 160" aria-hidden="true" focusable="false">
+                            <defs>
+                                <clipPath id="honeymoon-clip"><circle cx="100" cy="85" r="66"/></clipPath>
+                            </defs>
+                            <g clip-path="url(#honeymoon-clip)">
+                                <rect x="0" y="0" width="200" height="160" fill="#D6EEFF"/>
+                                <path d="M0 108 q25 -8 50 0 t50 0 t50 0 t50 0 V160 H0 z" fill="#00A6A6"/>
+                                <path d="M0 124 q40 -14 110 10 V160 H0 z" fill="#F6D9A6"/>
+                            </g>
+                            <path d="M30 46 q30 -24 64 12" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round"/>
+                            <g stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                                <circle cx="152" cy="40" r="15" fill="#FFC72C"/>
+                                <path d="M152 16 v-6 M152 70 v-6 M128 40 h-6 M182 40 h-6 M135 23 l-4 -4 M169 23 l4 -4" fill="none"/>
+                                <path d="M96 62 l40 -10 q9 -2 9 3 q0 4 -9 6 l-40 9 z" fill="#ffffff"/>
+                                <path d="M116 58 l-8 -14 h7 l14 11 z" fill="#E4007C"/>
+                                <path d="M116 64 l-2 12 h6 l8 -14 z" fill="#E4007C"/>
+                                <path d="M98 62 l-6 -10 h6 l6 8 z" fill="#FFC72C"/>
+                                <path d="M54 140 q-2 -40 14 -70" fill="none" stroke-width="6" stroke="#9c5221"/>
+                                <path d="M68 70 q-20 -10 -34 4 q18 -4 34 -4z" fill="#2E8B57"/>
+                                <path d="M68 70 q-8 -20 -26 -18 q16 6 26 18z" fill="#2E8B57"/>
+                                <path d="M68 70 q14 -18 32 -10 q-18 0 -32 10z" fill="#2E8B57"/>
+                                <path d="M68 70 q20 -2 26 14 q-12 -10 -26 -14z" fill="#2E8B57"/>
+                                <rect x="96" y="116" width="34" height="24" rx="3" fill="#E4007C"/>
+                                <path d="M106 116 v-6 h14 v6" fill="none"/>
+                            </g>
+                            <circle cx="105" cy="128" r="4" fill="#FFC72C"/>
+                            <rect x="114" y="124" width="10" height="8" fill="#00A6A6"/>
+                            <circle cx="64" cy="74" r="3" fill="#7a3e16"/>
+                            <circle cx="70" cy="76" r="3" fill="#7a3e16"/>
+                        </svg>
+                    </div>
+                    <div class="gift-card-body">
+                        <h3 data-i18n="gifts-honeymoon-title"></h3>
+                        <p data-i18n="gifts-honeymoon-body"></p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="travel-tip gift-note">
+                <i class="fas fa-gift"></i>
+                <p><span data-i18n="gifts-contribute"></span> <a href="https://wa.me/31683043127" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> +31 683 043 127</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="footer-contact"></h3>
+                    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/31683043127" target="_blank" rel="noopener noreferrer" data-i18n="footer-phone">+31 683 043 127</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer-location"></h3>
+                    <p><i class="fa-solid fa-calendar"></i> <span data-i18n="hero-date-card"></span></p>
+                    <p><i class="fa-solid fa-location-dot"></i> <a href="https://share.google/n38BsPZPTrIs2OjPR" target="_blank" rel="noopener noreferrer" data-i18n="hero-location"></a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer-copyright"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js" defer></script>
+    <script src="../language.js" defer></script>
+</body>
+</html>

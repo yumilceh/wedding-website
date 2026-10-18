@@ -9,6 +9,7 @@ const translations = {
         'nav-why': 'Por Qué Tepoztlán',
         'nav-wedding-day': 'La Boda',
         'nav-travel-advice': 'Consejos de viaje',
+        'nav-gifts': 'Lista de Deseos',
 
         // Meta
         'page-title': 'Alejandra & Juan - Nuestra Boda',
@@ -346,8 +347,6 @@ const translations = {
         'how-to-rsvp-step-5': '<strong>Envía el formulario</strong> antes de la fecha límite',
         'rsvp-questions': '¿Preguntas?',
         'rsvp-questions-intro': 'Si tienes alguna pregunta o inquietud sobre tu RSVP, no dudes en contactarnos:',
-        'rsvp-questions-email': '<strong>Correo Electrónico:</strong> alejandra.juan.2026@email.com',
-        'rsvp-questions-phone': '<strong>Teléfono:</strong> +31 683 043 127 ',
 
         // FAQ
         'faq-title': 'Preguntas Frecuentes',
@@ -368,7 +367,7 @@ const translations = {
         'faq-parking-q': '¿Hay estacionamiento disponible?',
         'faq-parking-a': 'Sí, hay estacionamiento de cortesía disponible tanto en el lugar de la ceremonia como en el de la recepción. Se proporcionará servicio de valet en la recepción para tu comodidad.',
         'faq-contact-q': '¿A quién debo contactar si tengo preguntas?',
-        'faq-contact-a': '¡No dudes en contactarnos en cualquier momento! <strong>Correo electrónico:</strong> alejandra.juan.2026@email.com o <strong>Llamar:</strong> +31 683 043 127 ',
+        'faq-contact-a': '¡No dudes en contactarnos en cualquier momento por WhatsApp!',
         'faq-children-q': '¿Serán bienvenidos los niños?',
         'faq-children-a': '¡Los niños son bienvenidos en todos los eventos! Si traes niños, por favor indícalo en tu confirmación de asistencia para que podamos planificar en consecuencia los asientos y las actividades.',
         'faq-dietary-q': '¿Qué pasa si tengo una restricción alimenticia?',
@@ -379,7 +378,33 @@ const translations = {
         'faq-general-inquiries': 'Consultas Generales:',
         'faq-accommodation-assistance': 'Asistencia con el Alojamiento:',
         'faq-rsvp-questions': 'Preguntas sobre la Confirmación de Asistencia:',
-        'faq-rsvp-response': 'Correo electrónico o llamada - Normalmente respondemos en 24 horas',
+        'faq-rsvp-response': 'Por WhatsApp - Normalmente respondemos en 24 horas',
+
+        // Gift List
+        'gifts-meta-title': 'Nuestra Lista de Deseos - Alejandra y Juan',
+        'gifts-meta-description': 'Lista de deseos de la boda de Alejandra y Juan.',
+        'gifts-title': 'Nuestra Lista de Deseos',
+        'gifts-intro': 'Su presencia es nuestro mejor regalo. Pero si desean consentirnos, aquí les compartimos algunos de los sueños que queremos construir juntos en nuestro nuevo hogar. Sus contribuciones de regalo las invertiremos en hacer realidad estos deseos.',
+        'gifts-bed-title': 'Una Cama',
+        'gifts-bed-body': '¡Lo más urgente! Para descansar juntos después de cada aventura y soñar en grande.',
+        'gifts-urgent': 'Lo más urgente',
+        'gifts-coffee-title': 'Cafetera',
+        'gifts-coffee-body': 'Para empezar cada mañana con un cafecito… y como en Holanda no hay conchas, la concha nos la imaginaremos.',
+        'gifts-kitchen-title': 'Cocina y Hogar',
+        'gifts-kitchen-body': 'Todo lo que convierte una casa en hogar: sábanas, toallas, ollas, platos, vasos, decoración… ¡hasta el molcajete!',
+        'gifts-investment-title': 'Inversión para el Futuro',
+        'gifts-investment-body': 'Un guardadito para hacer crecer nuestros planes y nuestro patrimonio.',
+        'gifts-laundry-title': 'Lavadora y Secadora',
+        'gifts-laundry-body': 'La que tenemos está llegando al final de su vida útil.',
+        'gifts-dog-title': 'Un Perrito',
+        'gifts-dog-body': 'Definitivamente será un salchicha mini manchadito, para llenar la casa de alegría.',
+        'gifts-family-title': 'Familia',
+        'gifts-family-body': 'Para estar listos por si llegan bendiciones y la familia crece.',
+        'gifts-home-title': 'Mejoras para la Casa',
+        'gifts-home-body': 'Pintura, macetas y arreglos para hacer de nuestra casa un hogar lleno de color.',
+        'gifts-honeymoon-title': 'Luna de Miel',
+        'gifts-honeymoon-body': 'Sol, playa y nuevas aventuras para celebrar el comienzo de esta vida juntos.',
+        'gifts-contribute': 'Si desean contribuir a alguno de estos deseos, escríbannos por WhatsApp y con gusto les compartimos los detalles:',
 
         // Footer
         'footer-contact': 'Contáctanos',
@@ -388,7 +413,6 @@ const translations = {
         'footer-date': '19 de Diciembre de 2026',
         'footer-map-link': 'Ver en Google Maps', // Add this line
         'footer-phone': '+31 683 043 127',
-        'footer-email': 'boda.ale.y.juan.2026@gmail.com',
         'footer-copyright': '© 2026 Alejandra & Juan. Todos los derechos reservados.'
     },
     en: {
@@ -398,6 +422,7 @@ const translations = {
         'nav-why': 'Why Tepoztlan',
         'nav-wedding-day': 'The Wedding Day',
         'nav-travel-advice': 'Travel Advice',
+        'nav-gifts': 'Wish List',
 
         // Meta
         'page-title': 'Alejandra & Juan - Our Wedding',
@@ -717,8 +742,6 @@ const translations = {
         'how-to-rsvp-step-5': '<strong>Submit the form</strong> before the deadline',
         'rsvp-questions': 'Questions?',
         'rsvp-questions-intro': 'If you have any questions or concerns about your RSVP, please don\'t hesitate to contact us:',
-        'rsvp-questions-email': '<strong>Email:</strong> alejandra.juan.2026@email.com',
-        'rsvp-questions-phone': '<strong>Phone:</strong> +31 683 043 127 ',
 
         // FAQ
         'faq-title': 'Frequently Asked Questions',
@@ -739,7 +762,7 @@ const translations = {
         'faq-parking-q': 'Is parking available?',
         'faq-parking-a': 'Yes, complimentary parking is available at both the ceremony and reception venues. Valet service will be provided at the reception for your convenience.',
         'faq-contact-q': 'Who should I contact with questions?',
-        'faq-contact-a': 'Feel free to reach out to us anytime! <strong>Email:</strong> alejandra.juan.2026@email.com or <strong>Call:</strong> +31 683 043 127 ',
+        'faq-contact-a': 'Feel free to reach out to us anytime on WhatsApp!',
         'faq-children-q': 'Will children be welcome?',
         'faq-children-a': 'Children are welcome at all events! If you\'re bringing children, please indicate this in your RSVP so we can plan accordingly for seating and activities.',
         'faq-dietary-q': 'What if I have a dietary restriction?',
@@ -750,13 +773,38 @@ const translations = {
         'faq-general-inquiries': 'General Inquiries:',
         'faq-accommodation-assistance': 'Accommodation Assistance:',
         'faq-rsvp-questions': 'RSVP Questions:',
-        'faq-rsvp-response': 'Email or call - We typically respond within 24 hours',
+        'faq-rsvp-response': 'Via WhatsApp - We typically respond within 24 hours',
+
+        // Gift List
+        'gifts-meta-title': 'Our Wish List - Alejandra and Juan',
+        'gifts-meta-description': 'Wedding wish list for Alejandra and Juan.',
+        'gifts-title': 'Our Wish List',
+        'gifts-intro': 'Your presence is the greatest gift of all. But if you would like to spoil us, here are some of the dreams we hope to build together in our new home. Your gift contributions will go toward making these wishes come true.',
+        'gifts-bed-title': 'A Bed',
+        'gifts-bed-body': 'Our most urgent wish! To rest together after every adventure and dream big.',
+        'gifts-urgent': 'Most urgent',
+        'gifts-coffee-title': 'Coffee Machine',
+        'gifts-coffee-body': 'To start every morning with a good coffee… and since there are no conchas in the Netherlands, we will just imagine the concha.',
+        'gifts-kitchen-title': 'Kitchen & Home',
+        'gifts-kitchen-body': 'Everything that turns a house into a home: sheets, towels, pots, plates, glasses, decor… even the molcajete!',
+        'gifts-investment-title': 'Investment for the Future',
+        'gifts-investment-body': 'A little nest egg to help our plans and our future grow.',
+        'gifts-laundry-title': 'Washer & Dryer',
+        'gifts-laundry-body': 'Ours is reaching the end of its useful life.',
+        'gifts-dog-title': 'A Dog',
+        'gifts-dog-body': 'It will definitely be a mini dapple dachshund, to fill our home with joy.',
+        'gifts-family-title': 'Family',
+        'gifts-family-body': 'To be ready in case blessings come and our family grows.',
+        'gifts-home-title': 'Home Improvements',
+        'gifts-home-body': 'Paint, plants and repairs to turn our house into a home full of color.',
+        'gifts-honeymoon-title': 'Honeymoon',
+        'gifts-honeymoon-body': 'Sun, sea and new adventures to celebrate the start of our life together.',
+        'gifts-contribute': 'If you would like to contribute to any of these wishes, message us on WhatsApp and we will gladly share the details:',
         
         // Footer
         'footer-contact': 'Contact Us',
         'footer-location': 'Location',
         'footer-location-details': 'Tepoztlan, Morelos, Mexico',
-        'footer-email': 'boda.ale.y.juan.2026@gmail.com',
         'footer-date': 'December 19, 2026',
         'footer-map-link': 'View on Google Maps', // Add this line
         'footer-phone': '+31 683 043 127',
