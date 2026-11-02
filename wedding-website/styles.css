@@ -1912,11 +1912,23 @@ section h2 {
 }
 
 .gift-note {
+    flex-wrap: wrap;
+    align-items: center;
     margin-top: 3rem;
 }
 
-.gift-note a {
-    white-space: nowrap;
+.gift-note-ways {
+    display: flex;
+    gap: 0.75rem;
+    margin-left: auto;
+}
+
+.gift-note-ways img {
+    display: block;
+    width: 96px;
+    height: auto;
+    padding: 0.35rem;
+    background: #fbf6ea;
 }
 
 .loteria-tabla {

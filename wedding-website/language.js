@@ -404,7 +404,9 @@ const translations = {
         'gifts-home-body': 'Pintura, macetas y arreglos para hacer de nuestra casa un hogar lleno de color.',
         'gifts-honeymoon-title': 'Luna de Miel',
         'gifts-honeymoon-body': 'Sol, playa y nuevas aventuras para celebrar el comienzo de esta vida juntos.',
-        'gifts-contribute': 'Si desean contribuir a alguno de estos deseos, escríbannos por WhatsApp y con gusto les compartimos los detalles:',
+        'gifts-contribute': '¿Quieren contribuir a nuestra lista de deseos?',
+        'gifts-way-bank': 'Depósito bancario',
+        'gifts-way-cash': 'Sobre con efectivo entrando a una casa',
 
         // Footer
         'footer-contact': 'Contáctanos',
@@ -799,7 +801,9 @@ const translations = {
         'gifts-home-body': 'Paint, plants and repairs to turn our house into a home full of color.',
         'gifts-honeymoon-title': 'Honeymoon',
         'gifts-honeymoon-body': 'Sun, sea and new adventures to celebrate the start of our life together.',
-        'gifts-contribute': 'If you would like to contribute to any of these wishes, message us on WhatsApp and we will gladly share the details:',
+        'gifts-contribute': 'Do you want to contribute to our wish list?',
+        'gifts-way-bank': 'Bank deposit',
+        'gifts-way-cash': 'Envelope with cash going into a house',
         
         // Footer
         'footer-contact': 'Contact Us',
