@@ -1915,6 +1915,16 @@ section h2 {
     flex-wrap: wrap;
     align-items: center;
     margin-top: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gift-note:hover .gift-note-phone {
+    text-decoration: underline;
+}
+
+.gift-note-phone {
+    margin-top: 0.35rem;
 }
 
 .gift-note-ways {
